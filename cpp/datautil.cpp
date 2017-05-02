@@ -63,7 +63,8 @@ bool DataUtil::isDateTooLate()
     QString todayDate = QDate::currentDate().toString(YYYY_MM_DD);
     QString lastConferenceDay = ((Day*) mDataManager->mAllDay.last())->conferenceDay().toString(YYYY_MM_DD);
     qDebug() << "todayDate" << todayDate << "lastConferenceDay" << lastConferenceDay;
-    return todayDate > lastConferenceDay;
+    //return todayDate > lastConferenceDay;
+    return false;
 }
 
 /**

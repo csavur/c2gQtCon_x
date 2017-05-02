@@ -26,7 +26,8 @@ Pane {
         width: sourceSize.width
         height: sourceSize.height
         fillMode: Image.PreserveAspectFit
-        source: isDarkTheme? "qrc:/images/extra/qt-con-logo-white.png":"qrc:/images/extra/qt-con-logo.png"
+        //source: isDarkTheme? "qrc:/images/extra/qt-con-logo-white.png":"qrc:/images/extra/qt-con-logo.png"
+        source: isDarkTheme? "qrc:/images/extra/sose.png":"qrc:/images/extra/sose.png"
         horizontalAlignment: Image.AlignLeft
         verticalAlignment: Image.AlignTop
         transformOrigin: Item.TopLeft
@@ -48,7 +49,7 @@ Pane {
                 leftPadding: 16
                 rightPadding: 16
                 wrapMode: Text.WordWrap
-                text: qsTr("QtCon 2016, Berlin\n01. - 04. September")
+                text: qsTr("SOSE 2017, Waikoloa, Hawaii")
                 color: primaryColor
             }
         }
@@ -59,7 +60,7 @@ Pane {
                 leftPadding: 16
                 rightPadding: 16
                 wrapMode: Text.WordWrap
-                text: qsTr("Welcome to ekke's Conference2Go app")
+                text: qsTr("Welcome to System of Systems Engineering")
                 color: accentColor
             }
         }
@@ -70,7 +71,7 @@ Pane {
                 leftPadding: 16
                 rightPadding: 16
                 wrapMode: Text.WordWrap
-                text: qsTr("Developed with Qt 5.7\nQt Quick Controls 2\n(Material Style)")
+                text: qsTr("")
                 color: primaryColor
             }
         }
@@ -82,7 +83,7 @@ Pane {
                 leftPadding: 16
                 rightPadding: 16
                 wrapMode: Text.WordWrap
-                text: conference? "Twitter " + conference.hashTag : ""
+                //text: conference? "Twitter " + conference.hashTag : ""
                 color: accentColor
             }
         }
@@ -93,7 +94,7 @@ Pane {
         anchors.bottomMargin: isLandscape || appWindow.isClassicNavigationStyle? 48 : 100
         anchors.left: parent.left
         anchors.bottom: parent.bottom
-        text: dataUtil.apiInfo()
+        //text: dataUtil.apiInfo()
     }
     FloatingActionButton {
         property string imageName: "/refresh.png"

@@ -50,6 +50,7 @@ void DataServer::requestSchedule()
 
     QString uri;
     uri = "https://conf.qtcon.org/en/qtcon/public/schedule.json";
+    //uri = "http://savur.me/schedule.json";
     qDebug() << "requestSchedule uri:" << uri;
 
     QNetworkRequest request(uri);
@@ -115,7 +116,8 @@ void DataServer::requestSpeaker()
     }
 
     QString uri;
-    uri = "https://conf.qtcon.org/en/qtcon/public/speakers.json";
+    //uri = "https://conf.qtcon.org/en/qtcon/public/speakers.json";
+    uri = "http://savur.me/speaker.json";
     qDebug() << "requestSpeaker uri:" << uri;
 
     QNetworkRequest request(uri);

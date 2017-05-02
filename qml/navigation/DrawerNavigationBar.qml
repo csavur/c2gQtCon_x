@@ -45,13 +45,13 @@ Drawer {
                         leftPadding: 16
                         rightPadding: 16
                         LabelBody {
-                            text: "ekke's Conference2Go APP\nQtCon 2016 Berlin"
+                            text: "System of Systems Engineering\nSoSE 2017 Waikoloa, Hawaii"
                             wrapMode: Text.WordWrap
                             font.weight: Font.Medium
                             color: textOnPrimary
                         }
                         LabelBody {
-                            text: "@ekkescorner\n"
+                            //text: "@ekkescorner\n"
                             color: textOnPrimary
                         }
                     }

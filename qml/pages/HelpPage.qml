@@ -30,7 +30,7 @@ Flickable {
                     leftPadding: 10
                     rightPadding: 10
                     wrapMode: Text.WordWrap
-                    text: qsTr("Conference2Go\nQtCon 2016, Berlin\n(Qt 5.7 - Android + iOS)")
+                    text: qsTr("SoSE 2017\nWaikoloa, Hawaii\n")
                     color: primaryColor
                 }
             }
@@ -58,7 +58,7 @@ Flickable {
             }
             LabelTitle {
                 leftPadding: 10
-                text: qsTr("QtCon")
+                text: qsTr("Home")
                 color: accentColor
             }
             HelpRow {

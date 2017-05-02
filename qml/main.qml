@@ -152,7 +152,7 @@ ApplicationWindow {
     property int helpNavigationIndex: 9
     property int aboutNavigationIndex: 10
     property var navigationModel: [
-        {"type": "../navigation/DrawerNavigationButton.qml", "name": "QtCon", "icon": "home.png", "source": "../pages/HomePage.qml", "showCounter":false, "showMarker":false, "a_p":1, "canGoBack":false},
+        {"type": "../navigation/DrawerNavigationButton.qml", "name": "Home", "icon": "home.png", "source": "../pages/HomePage.qml", "showCounter":false, "showMarker":false, "a_p":1, "canGoBack":false},
         {"type": "../navigation/DrawerDivider.qml", "name": "", "icon": "", "source": "", "a_p":1, "canGoBack":false},
         {"type": "../navigation/DrawerNavigationButton.qml", "name": qsTr("Schedule"), "icon": "schedule.png", "source": "../navigation/ScheduleNavigation.qml", "showCounter":false, "showMarker":false, "a_p":2, "canGoBack":true},
         {"type": "../navigation/DrawerNavigationButton.qml", "name": qsTr("Speakers"), "icon": "speaker.png", "source": "../navigation/SpeakerNavigation.qml", "showCounter":false, "showMarker":false, "a_p":2, "canGoBack":true},
@@ -170,18 +170,18 @@ ApplicationWindow {
     property bool initDone: false
 
     property var navigationTitles: [
-        qsTr("QtCon 2016 Berlin"),
+        qsTr("SoSE 2017 Hawaii"),
         "",
-        qsTr("QtCon 2016 Schedule"),
-        qsTr("QtCon 2016 Speakers"),
-        qsTr("QtCon 2016 Tracks"),
-        qsTr("QtCon 2016 Venue"),
-        qsTr("QtCon 2016 Rooms"),
+        qsTr("SoSE 2017 Schedule"),
+        qsTr("SoSE 2017 Speakers"),
+        qsTr("SoSE 2017 Tracks"),
+        qsTr("SoSE 2017 Venue"),
+        qsTr("SoSE 2017 Rooms"),
         "",
-        qsTr("QtCon 2016 Settings"),
-        qsTr("QtCon 2016 Help"),
-        qsTr("QtCon 2016 About"),
-        qsTr("QtCon 2016 D E V E L O P E R Tools")
+        qsTr("SoSE 2017 Settings"),
+        qsTr("SoSE 2017 Help"),
+        qsTr("SoSE 2017 About"),
+        qsTr("SoSE 2017 D E V E L O P E R Tools")
     ]
     property string currentTitle: navigationTitles[navigationIndex]
     // Counter: orders
