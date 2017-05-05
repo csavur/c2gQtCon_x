@@ -14,7 +14,7 @@ Pane {
         topPadding: 12
         wrapMode: Label.WordWrap
         horizontalAlignment: Qt.AlignHCenter
-        text: qsTr("Welcome to\nekkes Conference2Go APP\nfor\nQtCon 2016")
+        text: qsTr("Welcome to\nSoSE 2017\n System of Systems Engineering\nConference")
     }
     BusyIndicator {
         id: busyIndicator
@@ -55,7 +55,7 @@ Pane {
             x: 24
             width: imageItem.size
             fillMode: Image.PreserveAspectFit
-            source: "qrc:/images/extra/qt-con-logo.png"
+            source: "qrc:/images/extra/sose.png"
         }
     }
 
@@ -70,7 +70,7 @@ Pane {
     function update() {
         console.log("InitialItemPage running from UPDATE")
         imageItem.visible = false
-        initLabel.text = qsTr("Conference2Go APP\nfor\nQtCon 2016")
+        initLabel.text = qsTr("SoSE 2017")
         infoLabel.text = qsTr("Conference Schedule will be updated...")
     }
 

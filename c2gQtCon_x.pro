@@ -167,10 +167,10 @@ ios {
 }
 
 winrt {
-    WINRT_MANIFEST.name = Qt Con 2016
+    WINRT_MANIFEST.name = SoSE 2017
     WINRT_MANIFEST.background = white
     WINRT_MANIFEST.default_language = en
-    WINRT_MANIFEST.description = QtCon 2016 Conference App
+    WINRT_MANIFEST.description = SoSE 2017 Conference App
     # getting manifest error: WINRT_MANIFEST.identity = org.ekkescorner.c2g.qtcon
     WINRT_MANIFEST.version = 1.4.0.0
 	

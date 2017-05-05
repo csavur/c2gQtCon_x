@@ -63,8 +63,7 @@ bool DataUtil::isDateTooLate()
     QString todayDate = QDate::currentDate().toString(YYYY_MM_DD);
     QString lastConferenceDay = ((Day*) mDataManager->mAllDay.last())->conferenceDay().toString(YYYY_MM_DD);
     qDebug() << "todayDate" << todayDate << "lastConferenceDay" << lastConferenceDay;
-    //return todayDate > lastConferenceDay;
-    return false;
+    return todayDate > lastConferenceDay;
 }
 
 /**
@@ -451,25 +450,25 @@ void DataUtil::prepareEventData() {
     }
     conference->setLastSessionTrackId(lastNr);
 
-    conference->setConferenceName("QtCon");
-    conference->setConferenceCity("Berlin");
+    conference->setConferenceName("SoSE 2017");
+    conference->setConferenceCity("Hawaii");
     QString venueAddress;
-    venueAddress = "BCC Berlin Congress Center";
+    venueAddress = "Waikoloa Hilton Village, Hawaii";
     venueAddress.append("\n");
-    venueAddress.append("Tagungszentrum Mitte");
+    venueAddress.append("Waikoloa Beach Drive");
+//    venueAddress.append("\n");
+//    venueAddress.append("Alexanderstr. 11");
     venueAddress.append("\n");
-    venueAddress.append("Alexanderstr. 11");
+    venueAddress.append("96738 Hawaii");
     venueAddress.append("\n");
-    venueAddress.append("10178 Berlin");
-    venueAddress.append("\n");
-    venueAddress.append("Deutschland");
+    venueAddress.append("USA");
     conference->setAddress(venueAddress);
-    conference->setTimeZoneName("Europe/Amsterdam");
+    conference->setTimeZoneName("Hawaii-Aleutian");
     conference->setTimeZoneOffsetSeconds(1 * 60 * 60); // +01:00 GMT
-    conference->setConferenceFrom(QDate::fromString("2016-09-01", YYYY_MM_DD));
-    conference->setConferenceTo(QDate::fromString("2016-09-04", YYYY_MM_DD));
-    conference->setHashTag("#QtCon16");
-    conference->setHomePage("http://qtcon.org/");
+    conference->setConferenceFrom(QDate::fromString("2017-06-18", YYYY_MM_DD));
+    conference->setConferenceTo(QDate::fromString("2017-06-21", YYYY_MM_DD));
+    conference->setHashTag("#SoSE2017");
+    conference->setHomePage("http://sosengineering.org/");
     QString coordinate;
     coordinate = QString::number(52.520778)+";"+QString::number(13.416515);
     // conference->coordinate()->setLatitude(52.520778);
@@ -482,28 +481,28 @@ void DataUtil::prepareEventData() {
     Day* day = mDataManager->createDay();
     day->setId(1);
     day->setWeekDay(4);
-    day->setConferenceDay(QDate::fromString("2016-09-01", YYYY_MM_DD));
+    day->setConferenceDay(QDate::fromString("2017-06-18", YYYY_MM_DD));
     conference->addToDays(day);
     mDataManager->insertDay(day);
     // friday
     day = mDataManager->createDay();
     day->setId(2);
     day->setWeekDay(5);
-    day->setConferenceDay(QDate::fromString("2016-09-02", YYYY_MM_DD));
+    day->setConferenceDay(QDate::fromString("2017-06-19", YYYY_MM_DD));
     conference->addToDays(day);
     mDataManager->insertDay(day);
     // saturday
     day = mDataManager->createDay();
     day->setId(3);
     day->setWeekDay(6);
-    day->setConferenceDay(QDate::fromString("2016-09-03", YYYY_MM_DD));
+    day->setConferenceDay(QDate::fromString("2017-06-20", YYYY_MM_DD));
     conference->addToDays(day);
     mDataManager->insertDay(day);
     // sunday
     day = mDataManager->createDay();
     day->setId(4);
     day->setWeekDay(1);
-    day->setConferenceDay(QDate::fromString("2016-09-04", YYYY_MM_DD));
+    day->setConferenceDay(QDate::fromString("2017-06-21", YYYY_MM_DD));
     conference->addToDays(day);
     mDataManager->insertDay(day);
     // BUILDING
@@ -545,7 +544,7 @@ Day* DataUtil::findDayForServerDate(const QString& dayDate) {
     bool found = false;
     for (int dl = 0; dl < mDataManager->mAllDay.size(); ++dl) {
         day = (Day*) mDataManager->mAllDay.at(dl);
-        if(day->conferenceDay().toString(YYYY_MM_DD) == dayDate) {
+        if( day->conferenceDay().toString(YYYY_MM_DD) == dayDate) {
             found = true;
             break;
         }
@@ -698,7 +697,7 @@ void DataUtil::setTrackAndType(SessionAPI* sessionAPI, Session* session, Confere
                 if(trackName == "Community") {
                     session->setIsCommunity(true);
                 } else {
-                    if(session->sessionDayAsDataObject()->conferenceDay().toString(YYYY_MM_DD) == "2016-09-01" && session->title().contains("Training")) {
+                    if(session->sessionDayAsDataObject()->conferenceDay().toString(YYYY_MM_DD) == "2017-06-18" && session->title().contains("Training")) {
                         session->setIsTraining(true);
                     } else {
                         if(session->sessionType() == "meeting") {

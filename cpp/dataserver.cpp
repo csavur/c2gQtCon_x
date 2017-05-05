@@ -49,8 +49,8 @@ void DataServer::requestSchedule()
     }
 
     QString uri;
-    uri = "https://conf.qtcon.org/en/qtcon/public/schedule.json";
-    //uri = "http://savur.me/schedule.json";
+    //uri = "https://conf.qtcon.org/en/qtcon/public/schedule.json";
+    uri = "http://savur.me/schedule.json";
     qDebug() << "requestSchedule uri:" << uri;
 
     QNetworkRequest request(uri);
@@ -83,7 +83,8 @@ void DataServer::requestVersion()
     }
 
     QString uri;
-    uri = "https://conf.qtcon.org/en/qtcon/public/schedule/version.json";
+    //uri = "https://conf.qtcon.org/en/qtcon/public/schedule/version.json";
+    uri = "http://savur.me/version.json";
     qDebug() << "requestVersion uri:" << uri;
 
     QNetworkRequest request(uri);

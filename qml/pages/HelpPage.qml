@@ -24,7 +24,7 @@ Flickable {
             anchors.left: parent.left
             RowLayout {
                 Image {
-                    source: "qrc:/images/extra/qtcon-app.png"
+                    source: "qrc:/images/extra/sose.png"
                 }
                 LabelHeadline {
                     leftPadding: 10
@@ -67,7 +67,7 @@ Flickable {
             }
             HelpRow {
                 iconName: "refresh.png"
-                helpText: qsTr("QtCon Conference APP already contains the Conference Data, so you can start without waiting for Downloads. To get Schedule- and Speaker Updates tap on the Refresh Button.")
+                helpText: qsTr("The Conference APP already contains the Conference Data, so you can start without waiting for Downloads. To get Schedule- and Speaker Updates tap on the Refresh Button.")
             }
             LabelTitle {
                 leftPadding: 10
@@ -128,7 +128,7 @@ Flickable {
             }
             HelpRow {
                 iconName: "settings.png"
-                helpText: qsTr("Customize QtCon Conference APP. You can change the Theme (light or dark) and also Primary or Accent Color. Colors can be selected from Material Style Colors.")
+                helpText: qsTr("Customize the Conference APP. You can change the Theme (light or dark) and also Primary or Accent Color. Colors can be selected from Material Style Colors.")
             }
             LabelTitle {
                 leftPadding: 10
@@ -151,24 +151,24 @@ Flickable {
                 iconName: "time.png"
                 helpText: qsTr("Session Time from - to.")
             }
-            HorizontalDivider {}
-            LabelTitle {
-                leftPadding: 10
-                text: qsTr("Navigation")
-                color: accentColor
-            }
-            HelpRow {
-                iconName: "my_location.png"
-                helpText:  qsTr("QtCon Conference app uses some special Navigation Styles to speed up Navigation.\nIf you don't like this way to go and want to use Google Material Classic Navigation Style you can customize this from 'Settings'.")
-            }
-            HorizontalDivider {}
-            LabelSubheading {
-                leftPadding: 10
-                rightPadding: 16
-                text: qsTr("Need more Infos ?\nFollow @ekkescorner at Twitter\nfollow ekkes blogs:\nhttp://appbus.org and http://ekkes-corner.org")
-                font.italic: true
-                wrapMode: Text.WordWrap
-            }
+//            HorizontalDivider {}
+//            LabelTitle {
+//                leftPadding: 10
+//                text: qsTr("Navigation")
+//                color: accentColor
+//            }
+//            HelpRow {
+//                iconName: "my_location.png"
+//                helpText:  qsTr("QtCon Conference app uses some special Navigation Styles to speed up Navigation.\nIf you don't like this way to go and want to use Google Material Classic Navigation Style you can customize this from 'Settings'.")
+//            }
+//            HorizontalDivider {}
+//            LabelSubheading {
+//                leftPadding: 10
+//                rightPadding: 16
+//                text: qsTr("Need more Infos ?\nFollow @ekkescorner at Twitter\nfollow ekkes blogs:\nhttp://appbus.org and http://ekkes-corner.org")
+//                font.italic: true
+//                wrapMode: Text.WordWrap
+//            }
         } // col layout
     } // root
     ScrollIndicator.vertical: ScrollIndicator { }

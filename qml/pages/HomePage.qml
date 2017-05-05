@@ -22,9 +22,9 @@ Pane {
         property real landscapeScale: 1.0
         scale: isLandscape? landscapeScale : portraitScale
         anchors.top: parent.top
-        anchors.left: parent.left
-        width: sourceSize.width
-        height: sourceSize.height
+        anchors.centerIn: parent.Center
+        width: sourceSize.width*0.4
+        height: sourceSize.height*0.4
         fillMode: Image.PreserveAspectFit
         //source: isDarkTheme? "qrc:/images/extra/qt-con-logo-white.png":"qrc:/images/extra/qt-con-logo.png"
         source: isDarkTheme? "qrc:/images/extra/sose.png":"qrc:/images/extra/sose.png"
