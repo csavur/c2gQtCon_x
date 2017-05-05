@@ -1,0 +1,28 @@
+[
+  {
+    "abstractText": "",
+    "description": "",
+    "endTime": "10:00",
+    "isCommunity": false,
+    "isDeprecated": false,
+    "isKeynote": false,
+    "isLightning": false,
+    "isMeeting": false,
+    "isSession": false,
+    "isTraining": false,
+    "isUnconference": false,
+    "minutes": 60,
+    "presenter": [],
+    "room": 12,
+    "scheduleItem": 564,
+    "sessionDay": 1,
+    "sessionId": 564,
+    "sessionLinks": [],
+    "sessionTrack": 1,
+    "sessionType": "",
+    "sortKey": "2016-09-0109:00",
+    "startTime": "09:00",
+    "subtitle": "",
+    "title": "Registration"
+  }
+]

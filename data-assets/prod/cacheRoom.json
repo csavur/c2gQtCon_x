@@ -1,0 +1,16 @@
+[
+  {
+    "floor": 1,
+    "inAssets": true,
+    "roomId": 1,
+    "roomName": "KING1",
+    "sessions": []
+  },
+  {
+    "floor": 1,
+    "inAssets": true,
+    "roomId": 2,
+    "roomName": "KING2",
+    "sessions": []
+  }
+]

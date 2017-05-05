@@ -1950,5 +1950,8 @@
         <file>images/white/zoom_out@4x.png</file>
         <file>images/LICENSE</file>
         <file>images/extra/sose.png</file>
+        <file>images/extra/sose@2x.png</file>
+        <file>images/extra/sose@3x.png</file>
+        <file>images/extra/sose@4x.png</file>
     </qresource>
 </RCC>

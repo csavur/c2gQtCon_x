@@ -1,0 +1,18 @@
+[
+  {
+    "isBreak": false,
+    "isEvent": false,
+    "isLunch": false,
+    "isRegistration": true,
+    "session": 564,
+    "sessionId": 564
+  },
+  {
+    "isBreak": false,
+    "isEvent": false,
+    "isLunch": true,
+    "isRegistration": false,
+    "session": 577,
+    "sessionId": 577
+  }
+]

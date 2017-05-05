@@ -1,0 +1,12 @@
+[
+  {
+    "building": 1,
+    "floorId": 1,
+    "floorName": "Level A",
+    "inAssets": true,
+    "rooms": [
+      "1",
+      "2"
+    ]
+  }
+]

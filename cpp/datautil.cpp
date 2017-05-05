@@ -61,6 +61,9 @@ QString DataUtil::conferenceDataPath4QML() {
 bool DataUtil::isDateTooLate()
 {
     QString todayDate = QDate::currentDate().toString(YYYY_MM_DD);
+    if(mDataManager->mAllDay.empty())
+        return false;
+
     QString lastConferenceDay = ((Day*) mDataManager->mAllDay.last())->conferenceDay().toString(YYYY_MM_DD);
     qDebug() << "todayDate" << todayDate << "lastConferenceDay" << lastConferenceDay;
     return todayDate > lastConferenceDay;
@@ -210,76 +213,76 @@ QString DataUtil::trackColor(const int trackId)
     case 3:
         // *****
         return "transparent";
-    case 25:
+    case 27:
         // 3D
         return "#FFCDD2";
-    case 18:
+    case 28:
         // Automotive, Mobile and Embedded
         return "#F06292";
-    case 21:
+    case 29:
         // Best practices
         return "#BA68C8";
-    case 14:
+    case 30:
         // Beyond Code
         return "#D1C4E9";
-    case 2:
+    case 31:
         // Break "#FFFFFF"
         return "grey";
-    case 23:
+    case 32:
         // Codecs
         return "#E8EAF6";
-    case 4:
+    case 33:
         // Community
         return "#B3E5FC";
-    case 12:
+    case 34:
         // Distributing Software and Resources
         return "#64B5F6";
-    case 6:
+    case 35:
         // Free Software policies and politics
         return "#4DD0E1";
-    case 16:
+    case 36:
         // Geolocation
         return "#CDDC39";
-    case 13:
+    case 37:
         // In depth
         return "#26A69A";
-    case 10:
+    case 38:
         // KDE‘s Latest and Greatest
         return "#2196F3";
-    case 5:
+    case 39:
         // Let‘s talk business
         return "#FFEB3B";
-    case 24:
+    case 40:
         // Let‘s talk software
         return "#FFC107";
-    case 1:
+    case 41:
         // Misc
         return "#FF9890";
-    case 17:
+    case 42:
         // Multithreading
         return "#FF7043";
-    case 22:
+    case 43:
         // OpenGL and 3D
         return "#E53935";
-    case 11:
+    case 44:
         // Platforms and Integration
         return "#BCAAA4";
-    case 9:
+    case 45:
         // Qt in Use
         return "#4CAF50";
-    case 15:
+    case 46:
         // QtQuick
         return "#8BC34A";
-    case 20:
+    case 47:
         // Technical Discussions
         return "#8D6E63";
-    case 8:
+    case 48:
         // Testing and Continuous Integration
         return "#E0E0E0";
-    case 7:
+    case 49:
         // Tooling
         return "#90A4AE";
-    case 19:
+    case 50:
         // Web
         return "#607D8B";
     default:
@@ -1194,6 +1197,11 @@ void DataUtil::updateSessions() {
         return;
     }
     Conference* conference;
+    if(mDataManager->allConference().isEmpty()) {
+        emit updateFailed(tr("Error: Conference Not Found!"));
+        return;
+    }
+
     conference = (Conference*) mDataManager->allConference().first();
     QVariantList dayList;
     dayList = map.value("days").toList();

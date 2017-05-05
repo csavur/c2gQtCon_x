@@ -1,0 +1,25 @@
+[
+  {
+    "address": "BCC Berlin Congress Center\nTagungszentrum Mitte\nAlexanderstr. 11\n10178 Berlin\nDeutschland",
+    "conferenceCity": "Hawaii",
+    "conferenceFrom": "2017-06-18",
+    "conferenceName": "SoSE2017",
+    "conferenceTo": "2017-06-21",
+    "coordinate": "52.5208;13.4165",
+    "days": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "hashTag": "#SoSE2017",
+    "homePage": "http://sosengineering.org",
+    "id": -1,
+    "lastBuildingId": 1,
+    "lastFloorId": 3,
+    "lastRoomId": 27,
+    "lastSessionTrackId": 26,
+    "timeZoneName": "Hawaii-Aleutian",
+    "timeZoneOffsetSeconds": 3600
+  }
+]
