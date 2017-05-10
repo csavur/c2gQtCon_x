@@ -1,7 +1,7 @@
 <RCC>
     <qresource prefix="/">
-        <file>translations/c2gQtCon_x_de.qm</file>
-        <file>translations/c2gQtCon_x_en.qm</file>
-        <file>translations/c2gQtCon_x.qm</file>
+        <file>translations/SoSE2017.qm</file>
+        <file>translations/SoSE2017_de.qm</file>
+        <file>translations/SoSE2017_en.qm</file>
     </qresource>
 </RCC>

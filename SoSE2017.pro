@@ -1,6 +1,6 @@
 # ekke (Ekkehard Gentz) @ekkescorner
 TEMPLATE = app
-TARGET = c2gQtCon_x
+TARGET = SoSE2017
 
 QT += qml quick core network
 CONFIG += c++11
@@ -106,7 +106,7 @@ include(deployment.pri)
 
 # if changes to translatable strings:
 # 1. Run Tools-External-Linguist-Update
-# 2. Run Linguist and do translations
+# 2. Run Linguist and do translati`ons
 # 3. Build and run on iOS and Android to verify translations
 # 4. Optional: if translations not done: Run Tools-External-Linguist-Release
 
