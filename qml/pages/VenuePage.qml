@@ -36,7 +36,7 @@ Flickable {
             width: sourceSize.width
             height: sourceSize.height
             fillMode: Image.PreserveAspectFit
-            source: "qrc:/data-assets/conference/floorplan/building_1.png"
+            source: "qrc:/data-assets/conference/floorplan/hotel.png"
             horizontalAlignment: Image.AlignLeft
             verticalAlignment: Image.AlignTop
             transformOrigin: Item.TopLeft

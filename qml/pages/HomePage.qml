@@ -26,7 +26,6 @@ Pane {
         width: sourceSize.width*0.4
         height: sourceSize.height*0.4
         fillMode: Image.PreserveAspectFit
-        //source: isDarkTheme? "qrc:/images/extra/qt-con-logo-white.png":"qrc:/images/extra/qt-con-logo.png"
         source: isDarkTheme? "qrc:/images/extra/sose.png":"qrc:/images/extra/sose.png"
         horizontalAlignment: Image.AlignLeft
         verticalAlignment: Image.AlignTop

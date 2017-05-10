@@ -33,8 +33,6 @@ Page {
         }
     }
 
-
-
     // SECTION HEADER DELEGATE
     Component {
         id: sectionHeading
