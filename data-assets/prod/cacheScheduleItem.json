@@ -4,8 +4,40 @@
     "isEvent": false,
     "isLunch": false,
     "isRegistration": true,
-    "session": 564,
-    "sessionId": 564
+    "session": 100,
+    "sessionId": 100
+  },
+  {
+    "isBreak": false,
+    "isEvent": false,
+    "isLunch": false,
+    "isRegistration": true,
+    "session": 200,
+    "sessionId": 200
+  },
+  {
+    "isBreak": false,
+    "isEvent": false,
+    "isLunch": false,
+    "isRegistration": true,
+    "session": 300,
+    "sessionId": 300
+  },
+  {
+    "isBreak": false,
+    "isEvent": false,
+    "isLunch": false,
+    "isRegistration": true,
+    "session": 400,
+    "sessionId": 400
+  },
+  {
+    "isBreak": false,
+    "isEvent": false,
+    "isLunch": true,
+    "isRegistration": false,
+    "session": 693,
+    "sessionId": 693
   },
   {
     "isBreak": false,

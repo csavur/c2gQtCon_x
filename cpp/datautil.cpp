@@ -594,24 +594,26 @@ void DataUtil::createAndAdjustLinks(QVariantMap& sessionMap) {
     }
 }
 
-bool DataUtil::checkIfIgnored(SessionAPI* sessionAPI) {
-    if(sessionAPI->title() == "Registration and Coffee" && sessionAPI->room() != "B02") {
+bool DataUtil::checkIfIgnored(SessionAPI* sessionAPI)
+{
+    QString room = "Kings I";
+    if(sessionAPI->title() == "Registration and Coffee" && sessionAPI->room() != room) {
         qDebug() << "unwanted session: " << sessionAPI->sessionId() << " " << sessionAPI->title() << " " << sessionAPI->room();
         return true;
     }
-    if(sessionAPI->title() == "Lunch" && sessionAPI->room() != "B02") {
+    if(sessionAPI->title() == "Lunch" && sessionAPI->room() != room) {
         qDebug() << "unwanted session: " << sessionAPI->sessionId() << " " << sessionAPI->title() << " " << sessionAPI->room();
         return true;
     }
-    if(sessionAPI->title() == "Coffee break" && sessionAPI->room() != "B02") {
+    if(sessionAPI->title() == "Coffee break" && sessionAPI->room() != room) {
         qDebug() << "unwanted session: " << sessionAPI->sessionId() << " " << sessionAPI->title() << " " << sessionAPI->room();
         return true;
     }
-    if(sessionAPI->title() == "Evening event" && sessionAPI->room() != "B02") {
+    if(sessionAPI->title() == "Evening event" && sessionAPI->room() != room) {
         qDebug() << "unwanted session: " << sessionAPI->sessionId() << " " << sessionAPI->title() << " " << sessionAPI->room();
         return true;
     }
-    if(sessionAPI->title() == "Welcome" && sessionAPI->room() != "C01") {
+    if(sessionAPI->title() == "Welcome" && sessionAPI->room() != room) {
         qDebug() << "unwanted session: " << sessionAPI->sessionId() << " " << sessionAPI->title() << " " << sessionAPI->room();
         return true;
     }
@@ -1075,7 +1077,7 @@ void DataUtil::continueUpdate()
                 qWarning() << "AVATAR wrong "+speakerAPI->avatar();
             } else {
                 // check if modified
-                avatar = avatar.replace("http://","https://");
+                //avatar = avatar.replace("http://","https://");
                 if(speaker->hasSpeakerImage()) {
                     if(speaker->speakerImageAsDataObject()->originImageUrl() != avatar) {
                         qDebug() << "IMAGE Changed";
