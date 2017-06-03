@@ -161,7 +161,7 @@ ios {
     app_launch_screen.files = $$files($$PWD/ios/MyLaunchScreen.xib)
     QMAKE_BUNDLE_DATA += app_launch_screen
 
-    QMAKE_IOS_DEPLOYMENT_TARGET = 8.2
+    QMAKE_IOS_DEPLOYMENT_TARGET = 10.2
     # Note for devices: 1=iPhone, 2=iPad, 1,2=Universal.
     QMAKE_IOS_TARGETED_DEVICE_FAMILY = 1,2
 }
