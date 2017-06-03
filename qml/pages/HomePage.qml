@@ -48,7 +48,7 @@ Pane {
                 leftPadding: 16
                 rightPadding: 16
                 wrapMode: Text.WordWrap
-                text: qsTr("SOSE 2017, Waikoloa, Hawaii")
+                text: qsTr("SoSE 2017, Waikoloa, Hawaii")
                 color: primaryColor
             }
         }
@@ -93,7 +93,7 @@ Pane {
         anchors.bottomMargin: isLandscape || appWindow.isClassicNavigationStyle? 48 : 100
         anchors.left: parent.left
         anchors.bottom: parent.bottom
-        //text: dataUtil.apiInfo()
+        text: dataUtil.apiInfo()
     }
     FloatingActionButton {
         property string imageName: "/refresh.png"
