@@ -35,7 +35,7 @@ Flickable {
                     leftPadding: 10
                     rightPadding: 10
                     wrapMode: Text.WordWrap
-                    text: qsTr("This application modified by Celal Savur.\n")
+                    text: qsTr("This application developted by Celal Savur.\n")
                 }
             }
 
@@ -53,7 +53,7 @@ Flickable {
                     leftPadding: 10
                     rightPadding: 10
                     wrapMode: Text.WordWrap
-                    text: qsTr("I also write an application that can modify json daya so this application can run...")
+                    text: qsTr("Thanks for using, I would like thanks to Ekke to allow me modify his source code.")
                 }
             }
 

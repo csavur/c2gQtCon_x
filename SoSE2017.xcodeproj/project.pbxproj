@@ -1,0 +1,1339 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		8DA0BBA57CF75928AC7D7ED9 /* Qt Preprocess */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "SoSE2017" */;
+			buildPhases = (
+				5E618435888B9D49F8540165 /* Qt Qmake */,
+				7EF0942E79C014DCEC8976BC /* Qt Preprocessors */,
+			);
+			dependencies = (
+			);
+			name = "Qt Preprocess";
+			productName = "Qt Preprocess";
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		04B0AD92E9791AF1E5325597 /* AppIcon-180x180.png in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = E46B4724170A23701E2B4075 /* AppIcon-180x180.png */; };
+		06C377F0D84E615AABCA5378 /* qmldbg_tcp in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 501266170E7B08CEF5A5DE18 /* qmldbg_tcp */; };
+		0844166FBCB903C191728918 /* qtfreetype in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 720BECEBFFBC67117DC565FC /* qtfreetype */; };
+		09084AEA15A4AFF2227F7BDD /* moc_DataManager.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 0803A8B507059232CB806ECC /* moc_DataManager.cpp */; settings = {ATTRIBUTES = (); }; };
+		0A863E8179A3C1BBE6388580 /* MyLaunchScreen.xib in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 7E750F479D0C49DABE732303 /* MyLaunchScreen.xib */; };
+		0CE02722F00CAD43741297B5 /* CoreGraphics.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 6AE3EC31EE5BB1FCEE84137C /* CoreGraphics.framework */; };
+		0FA126EB37CDCA7CF6B9D6D0 /* Qt5GraphicsSupport in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 02F7CFDB0C158C7FBBCEBD45 /* Qt5GraphicsSupport */; };
+		12BBA8BEA826C28CF41E1CC5 /* moc_Floor.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AAA3B0E43B45FE8A3736BC67 /* moc_Floor.cpp */; settings = {ATTRIBUTES = (); }; };
+		149E26C72861A0CE04DF03F6 /* sose2017_plugin_import.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 19BA872B5A0ACD7F43EDEBB9 /* sose2017_plugin_import.cpp */; settings = {ATTRIBUTES = (); }; };
+		15364689D2AB5A30E87A689F /* Security.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 205259EEEE2BADA5E64741E3 /* Security.framework */; };
+		15562F464392DA040D99A5BB /* qmldbg_native in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8E1952D6835840A72E54E4E7 /* qmldbg_native */; };
+		17F73BDAAF2882A79BF02000 /* moc_Session.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 38ED32A20370A48DD37CA6D1 /* moc_Session.cpp */; settings = {ATTRIBUTES = (); }; };
+		18884F4E14B988B52F254268 /* Qt5FontDatabaseSupport in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 462CAF8583D6CC73B0CD7F27 /* Qt5FontDatabaseSupport */; };
+		19A5AE2485F976E88BB5F306 /* iTunesArtwork@2x 1024x1024.png in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 289B058E76601CB0E00701C7 /* iTunesArtwork@2x 1024x1024.png */; };
+		1B253B591110AE00FA2B2CBF /* SettingsData.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 1BC6FD515683A6337559AD41 /* SettingsData.cpp */; settings = {ATTRIBUTES = (); }; };
+		1C07C1557B6E27B70A32E1C3 /* qtquickcontrols2plugin in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = E42803C46B8E7D0073575E55 /* qtquickcontrols2plugin */; };
+		1F1B4566561D9E7E839F171F /* qios in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 7590064A545CF3CC87ACFABF /* qios */; };
+		1F8526FD3FCAB409AF520F87 /* qgif in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = EF38398CC6B1645D2E603B4A /* qgif */; };
+		2008C78F36FA90AC08624EF4 /* LaunchImage@2x.png in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 7516CBE094CE4E6FE794F1F6 /* LaunchImage@2x.png */; };
+		2157841C5F8C75EB0572C521 /* dataserver.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 0DD2D0B47F617A2CAB5F96FC /* dataserver.cpp */; settings = {ATTRIBUTES = (); }; };
+		216C470F63A706DAA963CEE4 /* qquicklayoutsplugin in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 56D8BA363189483FFB27AA31 /* qquicklayoutsplugin */; };
+		23ADB1397AFB22CDD138B366 /* qrc_translations.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 50BDC84B84201A0BA6E699CB /* qrc_translations.cpp */; settings = {ATTRIBUTES = (); }; };
+		23DAE6C3EC2D95D3E8F0508C /* moc_Favorite.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = CAB39AA96C04EB66E8F19805 /* moc_Favorite.cpp */; settings = {ATTRIBUTES = (); }; };
+		242C872A933F621FA78E95AD /* SessionLinkAPI.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = A5643E323E05895E15236210 /* SessionLinkAPI.cpp */; settings = {ATTRIBUTES = (); }; };
+		249AD589754F2C9F7F1AEB54 /* moc_Day.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 4A0F40EC7EFA409B6B935CC4 /* moc_Day.cpp */; settings = {ATTRIBUTES = (); }; };
+		2976715CF941FDAE24C6CAB9 /* AppIcon-167x167.png in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = A1685BB03801599AE5B664DC /* AppIcon-167x167.png */; };
+		2B02D9DC58A01E45248DDBCE /* CoreText.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 7D7B02101166B76FD2D4F8B4 /* CoreText.framework */; };
+		2B3E5CC475860B934352F7DF /* moc_SpeakerImage.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 88BB2B71CA14EE8B31E4D773 /* moc_SpeakerImage.cpp */; settings = {ATTRIBUTES = (); }; };
+		334578EA76A2719750E3FF7A /* applicationui.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D11ED85826C72F9F3E650508 /* applicationui.cpp */; settings = {ATTRIBUTES = (); }; };
+		35BD702D8888383FE5F94938 /* qmldbg_local in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 7CA2FAD4E6CA13CC167D340C /* qmldbg_local */; };
+		3F0BB8297082EBFD50CD561D /* Qt5Core in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 98DCFB8A06913E15D78238B4 /* Qt5Core */; };
+		4051CA6E38F79A8F7E134C56 /* qtgraphicaleffectsplugin in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = DB170125CAD1CA2B4F631B68 /* qtgraphicaleffectsplugin */; };
+		4100B9BEB47FEF94D04FE0F0 /* qmldbg_debugger in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = F39A9BD6A98A52E7A2E5270F /* qmldbg_debugger */; };
+		425D55C6878207AD96727A2C /* qtga in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 10ADE5F5D9F4608A15FF15C5 /* qtga */; };
+		437C5CAEB170CEB8DF05BC31 /* qtquicktemplates2plugin in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = FE2728DA7B7C0E4BF10ED987 /* qtquicktemplates2plugin */; };
+		4EB68D0C8182BCE33529C421 /* AudioToolbox.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3C44131FDCFEF4396B9EA2BA /* AudioToolbox.framework */; };
+		4F3E2BE83D6AC6C986ED5601 /* moc_Conference.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 547FAC61D7989DC505CCC816 /* moc_Conference.cpp */; settings = {ATTRIBUTES = (); }; };
+		5367F461FF25E25D7E2C95D3 /* AppIcon-152x152.png in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 44F9EC65E97BA286A3F2E7CE /* AppIcon-152x152.png */; };
+		545972EBCA1F61967BD3F1B8 /* SessionTrack.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3C7DA223EE7FE44CCBA7AB56 /* SessionTrack.cpp */; settings = {ATTRIBUTES = (); }; };
+		556C29B30B8AC747F3B4611B /* Speaker.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 0878037CFDB05226106DE526 /* Speaker.cpp */; settings = {ATTRIBUTES = (); }; };
+		57B3CB3D07D2E8C3C07DABBD /* main.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2CA4781E9E33DABA5D818708 /* main.cpp */; settings = {ATTRIBUTES = (); }; };
+		5C4516D537E19200B6289676 /* qmldbg_quickprofiler in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 184159256516F364BA0438CD /* qmldbg_quickprofiler */; };
+		5CCC444AC2D4F8ABCFA85192 /* qmldbg_server in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = A97481FE886B1FE9DF765F65 /* qmldbg_server */; };
+		5D851B53A40E71370DB66ED8 /* SpeakerImage.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 61E99DA0FBE76E04D6A36396 /* SpeakerImage.cpp */; settings = {ATTRIBUTES = (); }; };
+		61EEC397DC8556BF8C4E36A7 /* ImageIO.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3A8EF9C62A8D4790CBB89CEA /* ImageIO.framework */; };
+		620CAC774ECD5C4A33FB2E53 /* moc_SessionLink.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2017AAD2B38E1E33598E2156 /* moc_SessionLink.cpp */; settings = {ATTRIBUTES = (); }; };
+		634CC28C38263A14575D36C5 /* LaunchScreen.xib in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 0773BDC8BD017FA649C9D042 /* LaunchScreen.xib */; };
+		643BF94325B88595BF13E160 /* qtquickcontrols2materialstyleplugin in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 6D3EC51C1162D33346736888 /* qtquickcontrols2materialstyleplugin */; };
+		6491A41DB52765DD351C2F3F /* ScheduleItem.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F5D704D742E6995D38DA99F0 /* ScheduleItem.cpp */; settings = {ATTRIBUTES = (); }; };
+		6572FB1AE8B4BF003F866014 /* iTunesArtwork 512x512.png in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = E75769FFF4582107F0A145EC /* iTunesArtwork 512x512.png */; };
+		66A04236C73D40FB9B2A3150 /* Qt5Network in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 121D9261D1CBF64F9963CD5A /* Qt5Network */; };
+		67AA7FF7317536E34D6FC862 /* qtlabscalendarplugin in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = C922DA78C250DC86063A36F0 /* qtlabscalendarplugin */; };
+		6949FECF6A608773BD6E2850 /* qrc_images.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C2E87372C59824AEE52B0574 /* qrc_images.cpp */; settings = {ATTRIBUTES = (); }; };
+		6BB94D71743092A822E9F836 /* LaunchImage@3x.png in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = F2B9411B0E1B23EFB6F1FCA1 /* LaunchImage@3x.png */; };
+		6BFF100630B8D64077B6AB37 /* AppIcon-80x80.png in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 1C113DE9CF70A1986DCFCDD0 /* AppIcon-80x80.png */; };
+		72E392B0BB46FA0D5571FB57 /* PersonsAPI.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8C6CC9EA2F97B4308EE9F221 /* PersonsAPI.cpp */; settings = {ATTRIBUTES = (); }; };
+		76BCD29E2D0C107486D38FC5 /* Qt5PacketProtocol in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = B69095D22E5C944703B8540F /* Qt5PacketProtocol */; };
+		773A92E67720C89D814ED812 /* Qt5Qml in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3FD689025418766DBA3239FB /* Qt5Qml */; };
+		7F68C1B5F3496B046DF688CE /* moc_Speaker.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3322659ADB8B3DD088EBE418 /* moc_Speaker.cpp */; settings = {ATTRIBUTES = (); }; };
+		84CD177F809D889FC3E4012F /* Qt5QuickControls2 in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3EB36FB5DEB36FAEB1EDDCCB /* Qt5QuickControls2 */; };
+		870FF0C8E2F6E2EC2866427C /* windowplugin in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 8F02588821AC9068632733C0 /* windowplugin */; };
+		8D0584F35263B57969D808CB /* qjpeg in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1AA581D3E6A6E10A21E13F31 /* qjpeg */; };
+		8FD79EC2817729329433053C /* moc_PersonsAPI.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 9827B4C8EE0723A8B12512FD /* moc_PersonsAPI.cpp */; settings = {ATTRIBUTES = (); }; };
+		935B37577826A71CEFE89878 /* Day.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C4F6E559A83D00F922766350 /* Day.cpp */; settings = {ATTRIBUTES = (); }; };
+		999D35C5ADF0223A39C91813 /* moc_Bookmark.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 90697A41AA2F8E88FEFAE4A5 /* moc_Bookmark.cpp */; settings = {ATTRIBUTES = (); }; };
+		9AED249B4ABC342552B4E129 /* moc_SessionAPI.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = E0F823694CFC4980A66DCDA8 /* moc_SessionAPI.cpp */; settings = {ATTRIBUTES = (); }; };
+		9B3892F43D4E9CA7E766D4E9 /* Building.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 63E67C427F79E0DFF15777E8 /* Building.cpp */; settings = {ATTRIBUTES = (); }; };
+		9B8E310B8BDE33EA9FA1F5B3 /* moc_SettingsData.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 3F2BFF1D909A409F67C98FCE /* moc_SettingsData.cpp */; settings = {ATTRIBUTES = (); }; };
+		9C507F9D9A232DC70012B76B /* qtlibpng in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 02B25FE89EF68C041CEF3A0C /* qtlibpng */; };
+		9D9DB4A4AA5953D53E0B20FF /* moc_dataserver.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2F51497EDB1B59A1B50DDC7B /* moc_dataserver.cpp */; settings = {ATTRIBUTES = (); }; };
+		9DE5189856D7BC3BE38D12A9 /* qico in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 0EA6D3774BBC946797136D6F /* qico */; };
+		9EB189BFE40C8D3E022E6AAD /* Default-568h@2x.png in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 7A7C201AF28C115440663121 /* Default-568h@2x.png */; };
+		9EF709744FB608D53C126E5B /* qiosnsphotolibrarysupport in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = EC83C78EF5C2B34BAB838646 /* qiosnsphotolibrarysupport */; };
+		9FC701127E522185A25F75DB /* qtpcre in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 841B6739CEFB16DC5696A687 /* qtpcre */; };
+		A1E390E2364FDEECB04DB027 /* qgenericbearer in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 39432A856ACCD17235C514EA /* qgenericbearer */; };
+		A23C93B06704C00D763C2934 /* AppIcon-58x58.png in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 6B932D6525A7AF902F76C2F8 /* AppIcon-58x58.png */; };
+		A4B7E8336E2DE4A6B0DDE7F4 /* moc_Building.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7B8941127CCBD93C345D6A4D /* moc_Building.cpp */; settings = {ATTRIBUTES = (); }; };
+		A753DD8D540A546EF3479BF7 /* imageloader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 7162747196CA020933A4CDB7 /* imageloader.cpp */; settings = {ATTRIBUTES = (); }; };
+		A852E1199F63F96F4433A64C /* moc_datautil.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B2B6F779F3B6FF7652425B73 /* moc_datautil.cpp */; settings = {ATTRIBUTES = (); }; };
+		AF423AFD937E76285A9A683B /* Qt5ClipboardSupport in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3BA44CF1EADB16DFB4052D66 /* Qt5ClipboardSupport */; };
+		B0A8376C7E1856766D24C272 /* SessionLists.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C7D17E24DF158D32BFFC0D6E /* SessionLists.cpp */; settings = {ATTRIBUTES = (); }; };
+		B427800AB7C93BFF02A8C6EF /* moc_SpeakerAPI.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = A92AF2B91CD850E2FB9471A2 /* moc_SpeakerAPI.cpp */; settings = {ATTRIBUTES = (); }; };
+		B460F624007324313696BE86 /* QuartzCore.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 7EC00404ACD5AB0E97726B0E /* QuartzCore.framework */; };
+		B73256C96B330C697CAEF6D7 /* qtgraphicaleffectsprivate in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = F7656BDDDEE15C409E58727E /* qtgraphicaleffectsprivate */; };
+		B8704C370F9D7F7F41EEB5F8 /* qtharfbuzz in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = F009247CE919FFAD4AB60C62 /* qtharfbuzz */; };
+		B895A5AB886A32A32345AB56 /* AppIcon-120x120.png in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 38C8A637DFF8D5BF3B79F767 /* AppIcon-120x120.png */; };
+		BDE0AD03D5B5F8952E9FF9F3 /* Qt5Quick in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 3A0BC9A10E11CF40B40419D9 /* Qt5Quick */; };
+		BE227C7B735B311ADECD3A34 /* Qt5Gui in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = C5CEE47B834991531D285BB8 /* Qt5Gui */; };
+		BE9AD285EC9BCFBFFF53C09F /* Bookmark.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = CC663DDDB7FCBAA5A0E792E1 /* Bookmark.cpp */; settings = {ATTRIBUTES = (); }; };
+		BF2F5890429881DC06B2C014 /* datautil.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 13F304467FAFB38B831B5AA4 /* datautil.cpp */; settings = {ATTRIBUTES = (); }; };
+		C24AD0021CECC126BFFD072D /* qwebp in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = F44C7FEEA12CD28215B7FDF7 /* qwebp */; };
+		C46C043078A5808CAA1CD865 /* AppIcon-87x87.png in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 2D9EA7BAC48527D644555C9D /* AppIcon-87x87.png */; };
+		C5D3B60AD5D82692195C1E81 /* DataManager.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C1E6502671A00A4BEAACE71A /* DataManager.cpp */; settings = {ATTRIBUTES = (); }; };
+		C76A750256DBC9E242363578 /* Conference.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D577C3CD69749B07B8F4E268 /* Conference.cpp */; settings = {ATTRIBUTES = (); }; };
+		CA072B9C0044ADCE55EE73F8 /* moc_Room.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = C313FC26260264DC9A8E157C /* moc_Room.cpp */; settings = {ATTRIBUTES = (); }; };
+		CBA025AB7204640120454E21 /* Session.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 90546AC7636D97F780675FCC /* Session.cpp */; settings = {ATTRIBUTES = (); }; };
+		CBFFA8CE528773FDD4E60CDF /* SessionLink.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AF37FF03B4D9EC8040D5771F /* SessionLink.cpp */; settings = {ATTRIBUTES = (); }; };
+		D071FFFA1B4CEEC49B1D28EC /* sose2017_qml_plugin_import.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 65D8F8D1B31367A3081731EC /* sose2017_qml_plugin_import.cpp */; settings = {ATTRIBUTES = (); }; };
+		D2DB9965E1D6A7C701E9E5F0 /* moc_applicationui.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = B54EC19A9158070909890EF6 /* moc_applicationui.cpp */; settings = {ATTRIBUTES = (); }; };
+		D32EF56CFAEBBF2AD3DAB950 /* moc_ScheduleItem.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 0CC1DB5440DDF2E34C0D2573 /* moc_ScheduleItem.cpp */; settings = {ATTRIBUTES = (); }; };
+		D44C83BF5B583D6F338ACAB3 /* SpeakerAPI.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 8D5D67E2B76A54CE207E8BC8 /* SpeakerAPI.cpp */; settings = {ATTRIBUTES = (); }; };
+		D4639595C3BCF2A39D88DF6E /* SystemConfiguration.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = FF5BDAB0076F3391B219EA52 /* SystemConfiguration.framework */; };
+		D981F16D644326D569E944C0 /* qmacjp2 in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 23CD60FCCB231D08977AC3B3 /* qmacjp2 */; };
+		DA985E3BCB85EA82A795366D /* Qt5QuickTemplates2 in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D17D4ED56C665ECC32C3552F /* Qt5QuickTemplates2 */; };
+		DC3366C777528CC2E5F0FD69 /* moc_imageloader.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 5C7FC5A46A2EC064C321BA08 /* moc_imageloader.cpp */; settings = {ATTRIBUTES = (); }; };
+		E050D2D6D042BB4F8BDF5CAD /* qmldbg_inspector in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D4484DB1A175E8DABFDDDCFD /* qmldbg_inspector */; };
+		E0EF79B25D49F7A86A962DE5 /* moc_SessionLists.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = D0C6763965B7A30DDDD2A887 /* moc_SessionLists.cpp */; settings = {ATTRIBUTES = (); }; };
+		E3F0BF0B9307444875C4C70B /* Floor.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 87EFC097CE6629ED13A86A28 /* Floor.cpp */; settings = {ATTRIBUTES = (); }; };
+		E46AE88CA28F2BD913A837C7 /* qrc_data-assets.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 4EB406933F8FAA1854D4AEC4 /* qrc_data-assets.cpp */; settings = {ATTRIBUTES = (); }; };
+		EC7347D5CAC806DBFC809EB9 /* LaunchImage-568h@2x.png in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 876ADFC1FF466FC765DC61D9 /* LaunchImage-568h@2x.png */; };
+		EEEC071A7105269400C361B2 /* qmldbg_profiler in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1D698CCB55648563087F8B2B /* qmldbg_profiler */; };
+		F03ADD47F3EC9DDF2EA34F54 /* qtiff in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1B2162E4268F7B7802CDB4B5 /* qtiff */; };
+		F26454630C80841CBDCFE1CA /* Foundation.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = FCC237CA5AD60B9BA4447615 /* Foundation.framework */; };
+		F28F98281F652428DF2E23FF /* qwbmp in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 5203B46E4E97E5327DBE1490 /* qwbmp */; };
+		F367D893DB780CAD48E4F5CA /* AppIcon-76x76.png in Copy Bundle Resources */ = {isa = PBXBuildFile; fileRef = 3E222CCFA3ED45AFF64B6DC6 /* AppIcon-76x76.png */; };
+		F4C67F1A8462CE7627DE9C30 /* SessionAPI.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = F0F2F329DA6DC10D399477A0 /* SessionAPI.cpp */; settings = {ATTRIBUTES = (); }; };
+		F5E79F536F185CAE2D73C6AA /* qrc_qml.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 4831869FA4670ABB2DA3C053 /* qrc_qml.cpp */; settings = {ATTRIBUTES = (); }; };
+		F6DEED74FA0BBB3FDFE0D4D5 /* moc_SessionLinkAPI.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 87CA5257C4C9D7835B81BDC1 /* moc_SessionLinkAPI.cpp */; settings = {ATTRIBUTES = (); }; };
+		F8628DE41FF357887D805208 /* Room.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 2F41C5EBB6513983A0936C9D /* Room.cpp */; settings = {ATTRIBUTES = (); }; };
+		F8B465CE34D8DF87AAE95913 /* CoreFoundation.framework in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 4D765E1B1EA6C757220C63E7 /* CoreFoundation.framework */; };
+		FA2E681A488989141C2BAD71 /* Favorite.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = 535318DE87267CE870D54454 /* Favorite.cpp */; settings = {ATTRIBUTES = (); }; };
+		FDE042D2CFF3610CA12B2139 /* qtquick2plugin in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = D9E18F2806476962A725275C /* qtquick2plugin */; };
+		FEF6FCB0A3C0D3D1840D5FD6 /* qicns in Link Binary With Libraries */ = {isa = PBXBuildFile; fileRef = 1C7629882816E5DD78EF8647 /* qicns */; };
+		FFBE40FE9C0B0D6F974EF4BF /* moc_SessionTrack.cpp in Compile Sources */ = {isa = PBXBuildFile; fileRef = AF237310284CBDFBD5F8FF75 /* moc_SessionTrack.cpp */; settings = {ATTRIBUTES = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1EA360FA1EE074010090F776 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6DB9C3763D02B1415CD9D565 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DA0BBA57CF75928AC7D7ED9;
+			remoteInfo = "Qt Preprocess";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		001F494AC8C995F3E0C1B524 /* translations.qrc */ = {isa = PBXFileReference; lastKnownFileType = text; name = translations.qrc; path = /Users/celal/workspace/SoSE2017/translations.qrc; sourceTree = "<absolute>"; };
+		02B25FE89EF68C041CEF3A0C /* qtlibpng */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtlibpng; path = "/Users/celal/Qt/5.8/ios/lib/libqtlibpng$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		02F7CFDB0C158C7FBBCEBD45 /* Qt5GraphicsSupport */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5GraphicsSupport; path = "/Users/celal/Qt/5.8/ios/lib/libQt5GraphicsSupport$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		048B93E295701132B34862CE /* Conference.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Conference.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/Conference.hpp; sourceTree = "<absolute>"; };
+		0773BDC8BD017FA649C9D042 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = LaunchScreen.xib; path = /Users/celal/workspace/SoSE2017/SoSE2017.xcodeproj/LaunchScreen.xib; sourceTree = "<absolute>"; };
+		078DC0968D7E41CA8D88EBC9 /* SessionLinkAPI.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SessionLinkAPI.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/SessionLinkAPI.hpp; sourceTree = "<absolute>"; };
+		0803A8B507059232CB806ECC /* moc_DataManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_DataManager.cpp; path = /Users/celal/workspace/SoSE2017/moc_DataManager.cpp; sourceTree = "<absolute>"; };
+		0878037CFDB05226106DE526 /* Speaker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Speaker.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/Speaker.cpp; sourceTree = "<absolute>"; };
+		0A0E4B725F3A9150E395F97E /* Day.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Day.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/Day.hpp; sourceTree = "<absolute>"; };
+		0CC1DB5440DDF2E34C0D2573 /* moc_ScheduleItem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_ScheduleItem.cpp; path = /Users/celal/workspace/SoSE2017/moc_ScheduleItem.cpp; sourceTree = "<absolute>"; };
+		0DD2D0B47F617A2CAB5F96FC /* dataserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = dataserver.cpp; path = /Users/celal/workspace/SoSE2017/cpp/dataserver.cpp; sourceTree = "<absolute>"; };
+		0E6E079BF5DD924E3E439350 /* imageloader.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = imageloader.hpp; path = /Users/celal/workspace/SoSE2017/cpp/imageloader.hpp; sourceTree = "<absolute>"; };
+		0EA6D3774BBC946797136D6F /* qico */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qico; path = "/Users/celal/Qt/5.8/ios/plugins/imageformats/libqico$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		10ADE5F5D9F4608A15FF15C5 /* qtga */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtga; path = "/Users/celal/Qt/5.8/ios/plugins/imageformats/libqtga$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		121D9261D1CBF64F9963CD5A /* Qt5Network */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Network; path = "/Users/celal/Qt/5.8/ios/lib/libQt5Network$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		1279044417C8EEA52448AB0B /* images.qrc */ = {isa = PBXFileReference; lastKnownFileType = text; name = images.qrc; path = /Users/celal/workspace/SoSE2017/images.qrc; sourceTree = "<absolute>"; };
+		13F304467FAFB38B831B5AA4 /* datautil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = datautil.cpp; path = /Users/celal/workspace/SoSE2017/cpp/datautil.cpp; sourceTree = "<absolute>"; };
+		1647403749C4D35CEB530F14 /* Bookmark.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Bookmark.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/Bookmark.hpp; sourceTree = "<absolute>"; };
+		184159256516F364BA0438CD /* qmldbg_quickprofiler */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmldbg_quickprofiler; path = "/Users/celal/Qt/5.8/ios/plugins/qmltooling/libqmldbg_quickprofiler$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		19BA872B5A0ACD7F43EDEBB9 /* sose2017_plugin_import.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sose2017_plugin_import.cpp; path = /Users/celal/workspace/SoSE2017/sose2017_plugin_import.cpp; sourceTree = "<absolute>"; };
+		1AA581D3E6A6E10A21E13F31 /* qjpeg */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qjpeg; path = "/Users/celal/Qt/5.8/ios/plugins/imageformats/libqjpeg$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		1B2162E4268F7B7802CDB4B5 /* qtiff */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtiff; path = "/Users/celal/Qt/5.8/ios/plugins/imageformats/libqtiff$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		1BC6FD515683A6337559AD41 /* SettingsData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SettingsData.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/SettingsData.cpp; sourceTree = "<absolute>"; };
+		1C113DE9CF70A1986DCFCDD0 /* AppIcon-80x80.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon-80x80.png"; path = "/Users/celal/workspace/SoSE2017/ios/AppIcon-80x80.png"; sourceTree = "<absolute>"; };
+		1C7629882816E5DD78EF8647 /* qicns */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qicns; path = "/Users/celal/Qt/5.8/ios/plugins/imageformats/libqicns$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		1D698CCB55648563087F8B2B /* qmldbg_profiler */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmldbg_profiler; path = "/Users/celal/Qt/5.8/ios/plugins/qmltooling/libqmldbg_profiler$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		2017AAD2B38E1E33598E2156 /* moc_SessionLink.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_SessionLink.cpp; path = /Users/celal/workspace/SoSE2017/moc_SessionLink.cpp; sourceTree = "<absolute>"; };
+		205259EEEE2BADA5E64741E3 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = /System/Library/Frameworks/Security.framework; sourceTree = "<absolute>"; };
+		234335A0282347E6BBEE8D1D /* applicationui.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = applicationui.hpp; path = /Users/celal/workspace/SoSE2017/cpp/applicationui.hpp; sourceTree = "<absolute>"; };
+		23CD60FCCB231D08977AC3B3 /* qmacjp2 */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmacjp2; path = "/Users/celal/Qt/5.8/ios/plugins/imageformats/libqmacjp2$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		270C485B73A8C831251A2944 /* DataManager.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DataManager.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/DataManager.hpp; sourceTree = "<absolute>"; };
+		289B058E76601CB0E00701C7 /* iTunesArtwork@2x 1024x1024.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork@2x 1024x1024.png"; path = "/Users/celal/workspace/SoSE2017/ios/iTunesArtwork@2x 1024x1024.png"; sourceTree = "<absolute>"; };
+		2CA4781E9E33DABA5D818708 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = /Users/celal/workspace/SoSE2017/cpp/main.cpp; sourceTree = "<absolute>"; };
+		2D9EA7BAC48527D644555C9D /* AppIcon-87x87.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon-87x87.png"; path = "/Users/celal/workspace/SoSE2017/ios/AppIcon-87x87.png"; sourceTree = "<absolute>"; };
+		2F41C5EBB6513983A0936C9D /* Room.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Room.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/Room.cpp; sourceTree = "<absolute>"; };
+		2F51497EDB1B59A1B50DDC7B /* moc_dataserver.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_dataserver.cpp; path = /Users/celal/workspace/SoSE2017/moc_dataserver.cpp; sourceTree = "<absolute>"; };
+		3322659ADB8B3DD088EBE418 /* moc_Speaker.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_Speaker.cpp; path = /Users/celal/workspace/SoSE2017/moc_Speaker.cpp; sourceTree = "<absolute>"; };
+		362BE74BC18E173903DCAC1F /* SoSE2017.pro */ = {isa = PBXFileReference; lastKnownFileType = text; name = SoSE2017.pro; path = /Users/celal/workspace/SoSE2017/SoSE2017.pro; sourceTree = "<absolute>"; };
+		38C8A637DFF8D5BF3B79F767 /* AppIcon-120x120.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon-120x120.png"; path = "/Users/celal/workspace/SoSE2017/ios/AppIcon-120x120.png"; sourceTree = "<absolute>"; };
+		38ED32A20370A48DD37CA6D1 /* moc_Session.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_Session.cpp; path = /Users/celal/workspace/SoSE2017/moc_Session.cpp; sourceTree = "<absolute>"; };
+		39432A856ACCD17235C514EA /* qgenericbearer */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qgenericbearer; path = "/Users/celal/Qt/5.8/ios/plugins/bearer/libqgenericbearer$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		3A0BC9A10E11CF40B40419D9 /* Qt5Quick */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Quick; path = "/Users/celal/Qt/5.8/ios/lib/libQt5Quick$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		3A8EF9C62A8D4790CBB89CEA /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = /System/Library/Frameworks/ImageIO.framework; sourceTree = "<absolute>"; };
+		3BA44CF1EADB16DFB4052D66 /* Qt5ClipboardSupport */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5ClipboardSupport; path = "/Users/celal/Qt/5.8/ios/lib/libQt5ClipboardSupport$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		3C44131FDCFEF4396B9EA2BA /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = /System/Library/Frameworks/AudioToolbox.framework; sourceTree = "<absolute>"; };
+		3C7DA223EE7FE44CCBA7AB56 /* SessionTrack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SessionTrack.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/SessionTrack.cpp; sourceTree = "<absolute>"; };
+		3E222CCFA3ED45AFF64B6DC6 /* AppIcon-76x76.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon-76x76.png"; path = "/Users/celal/workspace/SoSE2017/ios/AppIcon-76x76.png"; sourceTree = "<absolute>"; };
+		3EB36FB5DEB36FAEB1EDDCCB /* Qt5QuickControls2 */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5QuickControls2; path = "/Users/celal/Qt/5.8/ios/lib/libQt5QuickControls2$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		3F2BFF1D909A409F67C98FCE /* moc_SettingsData.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_SettingsData.cpp; path = /Users/celal/workspace/SoSE2017/moc_SettingsData.cpp; sourceTree = "<absolute>"; };
+		3FD689025418766DBA3239FB /* Qt5Qml */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Qml; path = "/Users/celal/Qt/5.8/ios/lib/libQt5Qml$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		408BF4DB025C2B1BEAC59C33 /* Favorite.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Favorite.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/Favorite.hpp; sourceTree = "<absolute>"; };
+		44F9EC65E97BA286A3F2E7CE /* AppIcon-152x152.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon-152x152.png"; path = "/Users/celal/workspace/SoSE2017/ios/AppIcon-152x152.png"; sourceTree = "<absolute>"; };
+		45FC442B041F77A8654EEBBE /* dataserver.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = dataserver.hpp; path = /Users/celal/workspace/SoSE2017/cpp/dataserver.hpp; sourceTree = "<absolute>"; };
+		462CAF8583D6CC73B0CD7F27 /* Qt5FontDatabaseSupport */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5FontDatabaseSupport; path = "/Users/celal/Qt/5.8/ios/lib/libQt5FontDatabaseSupport$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		4831869FA4670ABB2DA3C053 /* qrc_qml.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qrc_qml.cpp; path = /Users/celal/workspace/SoSE2017/qrc_qml.cpp; sourceTree = "<absolute>"; };
+		4A0F40EC7EFA409B6B935CC4 /* moc_Day.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_Day.cpp; path = /Users/celal/workspace/SoSE2017/moc_Day.cpp; sourceTree = "<absolute>"; };
+		4CD1C73CB1B9CA3E550207F5 /* datautil.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = datautil.hpp; path = /Users/celal/workspace/SoSE2017/cpp/datautil.hpp; sourceTree = "<absolute>"; };
+		4D765E1B1EA6C757220C63E7 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = /System/Library/Frameworks/CoreFoundation.framework; sourceTree = "<absolute>"; };
+		4EB406933F8FAA1854D4AEC4 /* qrc_data-assets.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = "qrc_data-assets.cpp"; path = "/Users/celal/workspace/SoSE2017/qrc_data-assets.cpp"; sourceTree = "<absolute>"; };
+		501266170E7B08CEF5A5DE18 /* qmldbg_tcp */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmldbg_tcp; path = "/Users/celal/Qt/5.8/ios/plugins/qmltooling/libqmldbg_tcp$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		50BDC84B84201A0BA6E699CB /* qrc_translations.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qrc_translations.cpp; path = /Users/celal/workspace/SoSE2017/qrc_translations.cpp; sourceTree = "<absolute>"; };
+		5203B46E4E97E5327DBE1490 /* qwbmp */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qwbmp; path = "/Users/celal/Qt/5.8/ios/plugins/imageformats/libqwbmp$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		535318DE87267CE870D54454 /* Favorite.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Favorite.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/Favorite.cpp; sourceTree = "<absolute>"; };
+		547FAC61D7989DC505CCC816 /* moc_Conference.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_Conference.cpp; path = /Users/celal/workspace/SoSE2017/moc_Conference.cpp; sourceTree = "<absolute>"; };
+		5685736409F15062C43A528F /* data-assets.qrc */ = {isa = PBXFileReference; lastKnownFileType = text; name = "data-assets.qrc"; path = "/Users/celal/workspace/SoSE2017/data-assets.qrc"; sourceTree = "<absolute>"; };
+		56D8BA363189483FFB27AA31 /* qquicklayoutsplugin */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qquicklayoutsplugin; path = "/Users/celal/Qt/5.8/ios/qml/QtQuick/Layouts/libqquicklayoutsplugin$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		5C7FC5A46A2EC064C321BA08 /* moc_imageloader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_imageloader.cpp; path = /Users/celal/workspace/SoSE2017/moc_imageloader.cpp; sourceTree = "<absolute>"; };
+		5C9190039068AC6C2D96347B /* SettingsData.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SettingsData.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/SettingsData.hpp; sourceTree = "<absolute>"; };
+		61E99DA0FBE76E04D6A36396 /* SpeakerImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpeakerImage.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/SpeakerImage.cpp; sourceTree = "<absolute>"; };
+		63E67C427F79E0DFF15777E8 /* Building.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Building.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/Building.cpp; sourceTree = "<absolute>"; };
+		65D8F8D1B31367A3081731EC /* sose2017_qml_plugin_import.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sose2017_qml_plugin_import.cpp; path = /Users/celal/workspace/SoSE2017/sose2017_qml_plugin_import.cpp; sourceTree = "<absolute>"; };
+		6AE3EC31EE5BB1FCEE84137C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = /System/Library/Frameworks/CoreGraphics.framework; sourceTree = "<absolute>"; };
+		6B932D6525A7AF902F76C2F8 /* AppIcon-58x58.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon-58x58.png"; path = "/Users/celal/workspace/SoSE2017/ios/AppIcon-58x58.png"; sourceTree = "<absolute>"; };
+		6D3EC51C1162D33346736888 /* qtquickcontrols2materialstyleplugin */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtquickcontrols2materialstyleplugin; path = "/Users/celal/Qt/5.8/ios/qml/QtQuick/Controls.2/Material/libqtquickcontrols2materialstyleplugin$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		6D5A2CB0121AAEEAE91EC0C8 /* PersonsAPI.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PersonsAPI.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/PersonsAPI.hpp; sourceTree = "<absolute>"; };
+		7162747196CA020933A4CDB7 /* imageloader.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = imageloader.cpp; path = /Users/celal/workspace/SoSE2017/cpp/imageloader.cpp; sourceTree = "<absolute>"; };
+		720BECEBFFBC67117DC565FC /* qtfreetype */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtfreetype; path = "/Users/celal/Qt/5.8/ios/lib/libqtfreetype$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		741AE13574B9ADDD922F5610 /* SessionLists.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SessionLists.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/SessionLists.hpp; sourceTree = "<absolute>"; };
+		7516CBE094CE4E6FE794F1F6 /* LaunchImage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LaunchImage@2x.png"; path = "/Users/celal/workspace/SoSE2017/ios/LaunchImage@2x.png"; sourceTree = "<absolute>"; };
+		7590064A545CF3CC87ACFABF /* qios */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qios; path = "/Users/celal/Qt/5.8/ios/plugins/platforms/libqios$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		7A7C201AF28C115440663121 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "/Users/celal/workspace/SoSE2017/SoSE2017.xcodeproj/Default-568h@2x.png"; sourceTree = "<absolute>"; };
+		7B8941127CCBD93C345D6A4D /* moc_Building.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_Building.cpp; path = /Users/celal/workspace/SoSE2017/moc_Building.cpp; sourceTree = "<absolute>"; };
+		7BF68AE56ECAC5356E76ED30 /* SpeakerAPI.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SpeakerAPI.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/SpeakerAPI.hpp; sourceTree = "<absolute>"; };
+		7CA2FAD4E6CA13CC167D340C /* qmldbg_local */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmldbg_local; path = "/Users/celal/Qt/5.8/ios/plugins/qmltooling/libqmldbg_local$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		7D7B02101166B76FD2D4F8B4 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = /System/Library/Frameworks/CoreText.framework; sourceTree = "<absolute>"; };
+		7E750F479D0C49DABE732303 /* MyLaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MyLaunchScreen.xib; path = /Users/celal/workspace/SoSE2017/ios/MyLaunchScreen.xib; sourceTree = "<absolute>"; };
+		7EC00404ACD5AB0E97726B0E /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = /System/Library/Frameworks/QuartzCore.framework; sourceTree = "<absolute>"; };
+		805335E88B54BB05D7658C15 /* ScheduleItem.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ScheduleItem.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/ScheduleItem.hpp; sourceTree = "<absolute>"; };
+		836DF923689E41040F1A2823 /* .qmake.stash */ = {isa = PBXFileReference; lastKnownFileType = text; name = .qmake.stash; path = /Users/celal/workspace/SoSE2017/.qmake.stash; sourceTree = "<absolute>"; };
+		841B6739CEFB16DC5696A687 /* qtpcre */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtpcre; path = "/Users/celal/Qt/5.8/ios/lib/libqtpcre$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		876ADFC1FF466FC765DC61D9 /* LaunchImage-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LaunchImage-568h@2x.png"; path = "/Users/celal/workspace/SoSE2017/ios/LaunchImage-568h@2x.png"; sourceTree = "<absolute>"; };
+		87CA5257C4C9D7835B81BDC1 /* moc_SessionLinkAPI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_SessionLinkAPI.cpp; path = /Users/celal/workspace/SoSE2017/moc_SessionLinkAPI.cpp; sourceTree = "<absolute>"; };
+		87EFC097CE6629ED13A86A28 /* Floor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Floor.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/Floor.cpp; sourceTree = "<absolute>"; };
+		88BB2B71CA14EE8B31E4D773 /* moc_SpeakerImage.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_SpeakerImage.cpp; path = /Users/celal/workspace/SoSE2017/moc_SpeakerImage.cpp; sourceTree = "<absolute>"; };
+		8C6CC9EA2F97B4308EE9F221 /* PersonsAPI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = PersonsAPI.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/PersonsAPI.cpp; sourceTree = "<absolute>"; };
+		8D5D67E2B76A54CE207E8BC8 /* SpeakerAPI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SpeakerAPI.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/SpeakerAPI.cpp; sourceTree = "<absolute>"; };
+		8E1952D6835840A72E54E4E7 /* qmldbg_native */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmldbg_native; path = "/Users/celal/Qt/5.8/ios/plugins/qmltooling/libqmldbg_native$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		8F02588821AC9068632733C0 /* windowplugin */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = windowplugin; path = "/Users/celal/Qt/5.8/ios/qml/QtQuick/Window.2/libwindowplugin$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		90546AC7636D97F780675FCC /* Session.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Session.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/Session.cpp; sourceTree = "<absolute>"; };
+		90697A41AA2F8E88FEFAE4A5 /* moc_Bookmark.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_Bookmark.cpp; path = /Users/celal/workspace/SoSE2017/moc_Bookmark.cpp; sourceTree = "<absolute>"; };
+		94CF4A136AA234D74144A6D9 /* qml.qrc */ = {isa = PBXFileReference; lastKnownFileType = text; name = qml.qrc; path = /Users/celal/workspace/SoSE2017/qml.qrc; sourceTree = "<absolute>"; };
+		978F5BE224E5B600D3E971EC /* Building.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Building.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/Building.hpp; sourceTree = "<absolute>"; };
+		9827B4C8EE0723A8B12512FD /* moc_PersonsAPI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_PersonsAPI.cpp; path = /Users/celal/workspace/SoSE2017/moc_PersonsAPI.cpp; sourceTree = "<absolute>"; };
+		9887334664FB3A9E7E379DFE /* SpeakerImage.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SpeakerImage.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/SpeakerImage.hpp; sourceTree = "<absolute>"; };
+		98DCFB8A06913E15D78238B4 /* Qt5Core */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Core; path = "/Users/celal/Qt/5.8/ios/lib/libQt5Core$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		9D00062606130DC38AF2AB34 /* Floor.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Floor.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/Floor.hpp; sourceTree = "<absolute>"; };
+		A1685BB03801599AE5B664DC /* AppIcon-167x167.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon-167x167.png"; path = "/Users/celal/workspace/SoSE2017/ios/AppIcon-167x167.png"; sourceTree = "<absolute>"; };
+		A5643E323E05895E15236210 /* SessionLinkAPI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SessionLinkAPI.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/SessionLinkAPI.cpp; sourceTree = "<absolute>"; };
+		A5D40DEA637231E1C2152FD6 /* android-openssl.pri */ = {isa = PBXFileReference; lastKnownFileType = text; name = "android-openssl.pri"; path = "/Users/celal/workspace/SoSE2017/android-openssl.pri"; sourceTree = "<absolute>"; };
+		A92AF2B91CD850E2FB9471A2 /* moc_SpeakerAPI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_SpeakerAPI.cpp; path = /Users/celal/workspace/SoSE2017/moc_SpeakerAPI.cpp; sourceTree = "<absolute>"; };
+		A97481FE886B1FE9DF765F65 /* qmldbg_server */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmldbg_server; path = "/Users/celal/Qt/5.8/ios/plugins/qmltooling/libqmldbg_server$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		AAA3B0E43B45FE8A3736BC67 /* moc_Floor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_Floor.cpp; path = /Users/celal/workspace/SoSE2017/moc_Floor.cpp; sourceTree = "<absolute>"; };
+		AB70FEBEBB2C528E67A6A3E0 /* deployment.pri */ = {isa = PBXFileReference; lastKnownFileType = text; name = deployment.pri; path = /Users/celal/workspace/SoSE2017/deployment.pri; sourceTree = "<absolute>"; };
+		AF237310284CBDFBD5F8FF75 /* moc_SessionTrack.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_SessionTrack.cpp; path = /Users/celal/workspace/SoSE2017/moc_SessionTrack.cpp; sourceTree = "<absolute>"; };
+		AF37FF03B4D9EC8040D5771F /* SessionLink.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SessionLink.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/SessionLink.cpp; sourceTree = "<absolute>"; };
+		B2B6F779F3B6FF7652425B73 /* moc_datautil.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_datautil.cpp; path = /Users/celal/workspace/SoSE2017/moc_datautil.cpp; sourceTree = "<absolute>"; };
+		B54EC19A9158070909890EF6 /* moc_applicationui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_applicationui.cpp; path = /Users/celal/workspace/SoSE2017/moc_applicationui.cpp; sourceTree = "<absolute>"; };
+		B69095D22E5C944703B8540F /* Qt5PacketProtocol */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5PacketProtocol; path = "/Users/celal/Qt/5.8/ios/lib/libQt5PacketProtocol$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		B6A8C37589A25557AE20DB2A /* Speaker.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Speaker.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/Speaker.hpp; sourceTree = "<absolute>"; };
+		B9D5D90105BDCD2386EA14DD /* Room.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Room.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/Room.hpp; sourceTree = "<absolute>"; };
+		C1E6502671A00A4BEAACE71A /* DataManager.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = DataManager.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/DataManager.cpp; sourceTree = "<absolute>"; };
+		C2E87372C59824AEE52B0574 /* qrc_images.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = qrc_images.cpp; path = /Users/celal/workspace/SoSE2017/qrc_images.cpp; sourceTree = "<absolute>"; };
+		C313FC26260264DC9A8E157C /* moc_Room.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_Room.cpp; path = /Users/celal/workspace/SoSE2017/moc_Room.cpp; sourceTree = "<absolute>"; };
+		C4F6E559A83D00F922766350 /* Day.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Day.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/Day.cpp; sourceTree = "<absolute>"; };
+		C5CEE47B834991531D285BB8 /* Qt5Gui */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5Gui; path = "/Users/celal/Qt/5.8/ios/lib/libQt5Gui$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		C7D17E24DF158D32BFFC0D6E /* SessionLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SessionLists.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/SessionLists.cpp; sourceTree = "<absolute>"; };
+		C806D0F887B04DEF495E183D /* uiconstants.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = uiconstants.hpp; path = /Users/celal/workspace/SoSE2017/cpp/uiconstants.hpp; sourceTree = "<absolute>"; };
+		C922DA78C250DC86063A36F0 /* qtlabscalendarplugin */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtlabscalendarplugin; path = "/Users/celal/Qt/5.8/ios/qml/Qt/labs/calendar/libqtlabscalendarplugin$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		CAB39AA96C04EB66E8F19805 /* moc_Favorite.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_Favorite.cpp; path = /Users/celal/workspace/SoSE2017/moc_Favorite.cpp; sourceTree = "<absolute>"; };
+		CC663DDDB7FCBAA5A0E792E1 /* Bookmark.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Bookmark.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/Bookmark.cpp; sourceTree = "<absolute>"; };
+		D0C6763965B7A30DDDD2A887 /* moc_SessionLists.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_SessionLists.cpp; path = /Users/celal/workspace/SoSE2017/moc_SessionLists.cpp; sourceTree = "<absolute>"; };
+		D11ED85826C72F9F3E650508 /* applicationui.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = applicationui.cpp; path = /Users/celal/workspace/SoSE2017/cpp/applicationui.cpp; sourceTree = "<absolute>"; };
+		D17D4ED56C665ECC32C3552F /* Qt5QuickTemplates2 */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = Qt5QuickTemplates2; path = "/Users/celal/Qt/5.8/ios/lib/libQt5QuickTemplates2$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		D4484DB1A175E8DABFDDDCFD /* qmldbg_inspector */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmldbg_inspector; path = "/Users/celal/Qt/5.8/ios/plugins/qmltooling/libqmldbg_inspector$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		D4C635E1FB24896CDAB804D8 /* SessionLink.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SessionLink.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/SessionLink.hpp; sourceTree = "<absolute>"; };
+		D577C3CD69749B07B8F4E268 /* Conference.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = Conference.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/Conference.cpp; sourceTree = "<absolute>"; };
+		D5D88DA9D9B9FEEED0D814D4 /* SessionTrack.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SessionTrack.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/SessionTrack.hpp; sourceTree = "<absolute>"; };
+		D9E18F2806476962A725275C /* qtquick2plugin */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtquick2plugin; path = "/Users/celal/Qt/5.8/ios/qml/QtQuick.2/libqtquick2plugin$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		DB170125CAD1CA2B4F631B68 /* qtgraphicaleffectsplugin */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtgraphicaleffectsplugin; path = "/Users/celal/Qt/5.8/ios/qml/QtGraphicalEffects/libqtgraphicaleffectsplugin$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		DDE9721FBC392C6D72636F16 /* SoSE2017.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SoSE2017.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE7756202CB99D6DA801F38C /* SessionAPI.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SessionAPI.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/SessionAPI.hpp; sourceTree = "<absolute>"; };
+		E0F823694CFC4980A66DCDA8 /* moc_SessionAPI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = moc_SessionAPI.cpp; path = /Users/celal/workspace/SoSE2017/moc_SessionAPI.cpp; sourceTree = "<absolute>"; };
+		E42803C46B8E7D0073575E55 /* qtquickcontrols2plugin */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtquickcontrols2plugin; path = "/Users/celal/Qt/5.8/ios/qml/QtQuick/Controls.2/libqtquickcontrols2plugin$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		E46B4724170A23701E2B4075 /* AppIcon-180x180.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "AppIcon-180x180.png"; path = "/Users/celal/workspace/SoSE2017/ios/AppIcon-180x180.png"; sourceTree = "<absolute>"; };
+		E75769FFF4582107F0A145EC /* iTunesArtwork 512x512.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "iTunesArtwork 512x512.png"; path = "/Users/celal/workspace/SoSE2017/ios/iTunesArtwork 512x512.png"; sourceTree = "<absolute>"; };
+		EC83C78EF5C2B34BAB838646 /* qiosnsphotolibrarysupport */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qiosnsphotolibrarysupport; path = "/Users/celal/Qt/5.8/ios/plugins/platforms/darwin/libqiosnsphotolibrarysupport$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		EF38398CC6B1645D2E603B4A /* qgif */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qgif; path = "/Users/celal/Qt/5.8/ios/plugins/imageformats/libqgif$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		F009247CE919FFAD4AB60C62 /* qtharfbuzz */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtharfbuzz; path = "/Users/celal/Qt/5.8/ios/lib/libqtharfbuzz$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		F0F2F329DA6DC10D399477A0 /* SessionAPI.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = SessionAPI.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/SessionAPI.cpp; sourceTree = "<absolute>"; };
+		F2B9411B0E1B23EFB6F1FCA1 /* LaunchImage@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "LaunchImage@3x.png"; path = "/Users/celal/workspace/SoSE2017/ios/LaunchImage@3x.png"; sourceTree = "<absolute>"; };
+		F39A9BD6A98A52E7A2E5270F /* qmldbg_debugger */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qmldbg_debugger; path = "/Users/celal/Qt/5.8/ios/plugins/qmltooling/libqmldbg_debugger$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		F44C7FEEA12CD28215B7FDF7 /* qwebp */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qwebp; path = "/Users/celal/Qt/5.8/ios/plugins/imageformats/libqwebp$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		F5D704D742E6995D38DA99F0 /* ScheduleItem.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = ScheduleItem.cpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/ScheduleItem.cpp; sourceTree = "<absolute>"; };
+		F61B6161CD54FE225E536932 /* Session.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Session.hpp; path = /Users/celal/workspace/SoSE2017/cpp/gen/Session.hpp; sourceTree = "<absolute>"; };
+		F7656BDDDEE15C409E58727E /* qtgraphicaleffectsprivate */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtgraphicaleffectsprivate; path = "/Users/celal/Qt/5.8/ios/qml/QtGraphicalEffects/private/libqtgraphicaleffectsprivate$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		FCC237CA5AD60B9BA4447615 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		FE2728DA7B7C0E4BF10ED987 /* qtquicktemplates2plugin */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = qtquicktemplates2plugin; path = "/Users/celal/Qt/5.8/ios/qml/QtQuick/Templates.2/libqtquicktemplates2plugin$(QT_LIBRARY_SUFFIX).a"; sourceTree = "<absolute>"; };
+		FF5BDAB0076F3391B219EA52 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = /System/Library/Frameworks/SystemConfiguration.framework; sourceTree = "<absolute>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D1C883685E82D5676953459A /* Link Binary With Libraries */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F26454630C80841CBDCFE1CA /* Foundation.framework in Link Binary With Libraries */,
+				B460F624007324313696BE86 /* QuartzCore.framework in Link Binary With Libraries */,
+				4EB68D0C8182BCE33529C421 /* AudioToolbox.framework in Link Binary With Libraries */,
+				F8B465CE34D8DF87AAE95913 /* CoreFoundation.framework in Link Binary With Libraries */,
+				2B02D9DC58A01E45248DDBCE /* CoreText.framework in Link Binary With Libraries */,
+				0CE02722F00CAD43741297B5 /* CoreGraphics.framework in Link Binary With Libraries */,
+				15364689D2AB5A30E87A689F /* Security.framework in Link Binary With Libraries */,
+				D4639595C3BCF2A39D88DF6E /* SystemConfiguration.framework in Link Binary With Libraries */,
+				FDE042D2CFF3610CA12B2139 /* qtquick2plugin in Link Binary With Libraries */,
+				216C470F63A706DAA963CEE4 /* qquicklayoutsplugin in Link Binary With Libraries */,
+				1C07C1557B6E27B70A32E1C3 /* qtquickcontrols2plugin in Link Binary With Libraries */,
+				643BF94325B88595BF13E160 /* qtquickcontrols2materialstyleplugin in Link Binary With Libraries */,
+				84CD177F809D889FC3E4012F /* Qt5QuickControls2 in Link Binary With Libraries */,
+				4051CA6E38F79A8F7E134C56 /* qtgraphicaleffectsplugin in Link Binary With Libraries */,
+				437C5CAEB170CEB8DF05BC31 /* qtquicktemplates2plugin in Link Binary With Libraries */,
+				B73256C96B330C697CAEF6D7 /* qtgraphicaleffectsprivate in Link Binary With Libraries */,
+				870FF0C8E2F6E2EC2866427C /* windowplugin in Link Binary With Libraries */,
+				67AA7FF7317536E34D6FC862 /* qtlabscalendarplugin in Link Binary With Libraries */,
+				DA985E3BCB85EA82A795366D /* Qt5QuickTemplates2 in Link Binary With Libraries */,
+				9EF709744FB608D53C126E5B /* qiosnsphotolibrarysupport in Link Binary With Libraries */,
+				1F1B4566561D9E7E839F171F /* qios in Link Binary With Libraries */,
+				18884F4E14B988B52F254268 /* Qt5FontDatabaseSupport in Link Binary With Libraries */,
+				0FA126EB37CDCA7CF6B9D6D0 /* Qt5GraphicsSupport in Link Binary With Libraries */,
+				AF423AFD937E76285A9A683B /* Qt5ClipboardSupport in Link Binary With Libraries */,
+				0844166FBCB903C191728918 /* qtfreetype in Link Binary With Libraries */,
+				1F8526FD3FCAB409AF520F87 /* qgif in Link Binary With Libraries */,
+				FEF6FCB0A3C0D3D1840D5FD6 /* qicns in Link Binary With Libraries */,
+				9DE5189856D7BC3BE38D12A9 /* qico in Link Binary With Libraries */,
+				8D0584F35263B57969D808CB /* qjpeg in Link Binary With Libraries */,
+				D981F16D644326D569E944C0 /* qmacjp2 in Link Binary With Libraries */,
+				61EEC397DC8556BF8C4E36A7 /* ImageIO.framework in Link Binary With Libraries */,
+				425D55C6878207AD96727A2C /* qtga in Link Binary With Libraries */,
+				F03ADD47F3EC9DDF2EA34F54 /* qtiff in Link Binary With Libraries */,
+				F28F98281F652428DF2E23FF /* qwbmp in Link Binary With Libraries */,
+				C24AD0021CECC126BFFD072D /* qwebp in Link Binary With Libraries */,
+				4100B9BEB47FEF94D04FE0F0 /* qmldbg_debugger in Link Binary With Libraries */,
+				E050D2D6D042BB4F8BDF5CAD /* qmldbg_inspector in Link Binary With Libraries */,
+				35BD702D8888383FE5F94938 /* qmldbg_local in Link Binary With Libraries */,
+				15562F464392DA040D99A5BB /* qmldbg_native in Link Binary With Libraries */,
+				EEEC071A7105269400C361B2 /* qmldbg_profiler in Link Binary With Libraries */,
+				5C4516D537E19200B6289676 /* qmldbg_quickprofiler in Link Binary With Libraries */,
+				BDE0AD03D5B5F8952E9FF9F3 /* Qt5Quick in Link Binary With Libraries */,
+				BE227C7B735B311ADECD3A34 /* Qt5Gui in Link Binary With Libraries */,
+				9C507F9D9A232DC70012B76B /* qtlibpng in Link Binary With Libraries */,
+				B8704C370F9D7F7F41EEB5F8 /* qtharfbuzz in Link Binary With Libraries */,
+				5CCC444AC2D4F8ABCFA85192 /* qmldbg_server in Link Binary With Libraries */,
+				76BCD29E2D0C107486D38FC5 /* Qt5PacketProtocol in Link Binary With Libraries */,
+				06C377F0D84E615AABCA5378 /* qmldbg_tcp in Link Binary With Libraries */,
+				773A92E67720C89D814ED812 /* Qt5Qml in Link Binary With Libraries */,
+				A1E390E2364FDEECB04DB027 /* qgenericbearer in Link Binary With Libraries */,
+				66A04236C73D40FB9B2A3150 /* Qt5Network in Link Binary With Libraries */,
+				3F0BB8297082EBFD50CD561D /* Qt5Core in Link Binary With Libraries */,
+				9FC701127E522185A25F75DB /* qtpcre in Link Binary With Libraries */,
+			);
+			name = "Link Binary With Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25B08E2869634E9BCBA333A2 /* Generated Sources */ = {
+			isa = PBXGroup;
+			children = (
+				65D8F8D1B31367A3081731EC /* sose2017_qml_plugin_import.cpp */,
+				19BA872B5A0ACD7F43EDEBB9 /* sose2017_plugin_import.cpp */,
+				4831869FA4670ABB2DA3C053 /* qrc_qml.cpp */,
+				50BDC84B84201A0BA6E699CB /* qrc_translations.cpp */,
+				C2E87372C59824AEE52B0574 /* qrc_images.cpp */,
+				4EB406933F8FAA1854D4AEC4 /* qrc_data-assets.cpp */,
+				B54EC19A9158070909890EF6 /* moc_applicationui.cpp */,
+				3F2BFF1D909A409F67C98FCE /* moc_SettingsData.cpp */,
+				90697A41AA2F8E88FEFAE4A5 /* moc_Bookmark.cpp */,
+				7B8941127CCBD93C345D6A4D /* moc_Building.cpp */,
+				547FAC61D7989DC505CCC816 /* moc_Conference.cpp */,
+				0803A8B507059232CB806ECC /* moc_DataManager.cpp */,
+				4A0F40EC7EFA409B6B935CC4 /* moc_Day.cpp */,
+				CAB39AA96C04EB66E8F19805 /* moc_Favorite.cpp */,
+				AAA3B0E43B45FE8A3736BC67 /* moc_Floor.cpp */,
+				9827B4C8EE0723A8B12512FD /* moc_PersonsAPI.cpp */,
+				C313FC26260264DC9A8E157C /* moc_Room.cpp */,
+				0CC1DB5440DDF2E34C0D2573 /* moc_ScheduleItem.cpp */,
+				38ED32A20370A48DD37CA6D1 /* moc_Session.cpp */,
+				E0F823694CFC4980A66DCDA8 /* moc_SessionAPI.cpp */,
+				AF237310284CBDFBD5F8FF75 /* moc_SessionTrack.cpp */,
+				3322659ADB8B3DD088EBE418 /* moc_Speaker.cpp */,
+				A92AF2B91CD850E2FB9471A2 /* moc_SpeakerAPI.cpp */,
+				88BB2B71CA14EE8B31E4D773 /* moc_SpeakerImage.cpp */,
+				B2B6F779F3B6FF7652425B73 /* moc_datautil.cpp */,
+				5C7FC5A46A2EC064C321BA08 /* moc_imageloader.cpp */,
+				2017AAD2B38E1E33598E2156 /* moc_SessionLink.cpp */,
+				87CA5257C4C9D7835B81BDC1 /* moc_SessionLinkAPI.cpp */,
+				D0C6763965B7A30DDDD2A887 /* moc_SessionLists.cpp */,
+				2F51497EDB1B59A1B50DDC7B /* moc_dataserver.cpp */,
+			);
+			name = "Generated Sources";
+			sourceTree = "<group>";
+		};
+		2EB56BE3C2D93CDAB0C52E67 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				8EA579F0A605D33ACBEB4F19 /* cpp */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		5B0CF1AC0A7E4F4BFDC837BD /* gen */ = {
+			isa = PBXGroup;
+			children = (
+				1BC6FD515683A6337559AD41 /* SettingsData.cpp */,
+				CC663DDDB7FCBAA5A0E792E1 /* Bookmark.cpp */,
+				63E67C427F79E0DFF15777E8 /* Building.cpp */,
+				D577C3CD69749B07B8F4E268 /* Conference.cpp */,
+				C1E6502671A00A4BEAACE71A /* DataManager.cpp */,
+				C4F6E559A83D00F922766350 /* Day.cpp */,
+				535318DE87267CE870D54454 /* Favorite.cpp */,
+				87EFC097CE6629ED13A86A28 /* Floor.cpp */,
+				8C6CC9EA2F97B4308EE9F221 /* PersonsAPI.cpp */,
+				2F41C5EBB6513983A0936C9D /* Room.cpp */,
+				F5D704D742E6995D38DA99F0 /* ScheduleItem.cpp */,
+				90546AC7636D97F780675FCC /* Session.cpp */,
+				F0F2F329DA6DC10D399477A0 /* SessionAPI.cpp */,
+				3C7DA223EE7FE44CCBA7AB56 /* SessionTrack.cpp */,
+				0878037CFDB05226106DE526 /* Speaker.cpp */,
+				8D5D67E2B76A54CE207E8BC8 /* SpeakerAPI.cpp */,
+				61E99DA0FBE76E04D6A36396 /* SpeakerImage.cpp */,
+				AF37FF03B4D9EC8040D5771F /* SessionLink.cpp */,
+				A5643E323E05895E15236210 /* SessionLinkAPI.cpp */,
+				C7D17E24DF158D32BFFC0D6E /* SessionLists.cpp */,
+				5C9190039068AC6C2D96347B /* SettingsData.hpp */,
+				1647403749C4D35CEB530F14 /* Bookmark.hpp */,
+				978F5BE224E5B600D3E971EC /* Building.hpp */,
+				048B93E295701132B34862CE /* Conference.hpp */,
+				270C485B73A8C831251A2944 /* DataManager.hpp */,
+				0A0E4B725F3A9150E395F97E /* Day.hpp */,
+				408BF4DB025C2B1BEAC59C33 /* Favorite.hpp */,
+				9D00062606130DC38AF2AB34 /* Floor.hpp */,
+				6D5A2CB0121AAEEAE91EC0C8 /* PersonsAPI.hpp */,
+				B9D5D90105BDCD2386EA14DD /* Room.hpp */,
+				805335E88B54BB05D7658C15 /* ScheduleItem.hpp */,
+				F61B6161CD54FE225E536932 /* Session.hpp */,
+				DE7756202CB99D6DA801F38C /* SessionAPI.hpp */,
+				D5D88DA9D9B9FEEED0D814D4 /* SessionTrack.hpp */,
+				B6A8C37589A25557AE20DB2A /* Speaker.hpp */,
+				7BF68AE56ECAC5356E76ED30 /* SpeakerAPI.hpp */,
+				9887334664FB3A9E7E379DFE /* SpeakerImage.hpp */,
+				D4C635E1FB24896CDAB804D8 /* SessionLink.hpp */,
+				078DC0968D7E41CA8D88EBC9 /* SessionLinkAPI.hpp */,
+				741AE13574B9ADDD922F5610 /* SessionLists.hpp */,
+			);
+			name = gen;
+			sourceTree = "<group>";
+		};
+		74B182DB50CB5611B5C1C297 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				362BE74BC18E173903DCAC1F /* SoSE2017.pro */,
+				836DF923689E41040F1A2823 /* .qmake.stash */,
+				AB70FEBEBB2C528E67A6A3E0 /* deployment.pri */,
+				A5D40DEA637231E1C2152FD6 /* android-openssl.pri */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		858FCAB0EB1F29CF8B07677C /* Bundle Data */ = {
+			isa = PBXGroup;
+			children = (
+				38C8A637DFF8D5BF3B79F767 /* AppIcon-120x120.png */,
+				44F9EC65E97BA286A3F2E7CE /* AppIcon-152x152.png */,
+				A1685BB03801599AE5B664DC /* AppIcon-167x167.png */,
+				E46B4724170A23701E2B4075 /* AppIcon-180x180.png */,
+				6B932D6525A7AF902F76C2F8 /* AppIcon-58x58.png */,
+				3E222CCFA3ED45AFF64B6DC6 /* AppIcon-76x76.png */,
+				1C113DE9CF70A1986DCFCDD0 /* AppIcon-80x80.png */,
+				2D9EA7BAC48527D644555C9D /* AppIcon-87x87.png */,
+				E75769FFF4582107F0A145EC /* iTunesArtwork 512x512.png */,
+				289B058E76601CB0E00701C7 /* iTunesArtwork@2x 1024x1024.png */,
+				876ADFC1FF466FC765DC61D9 /* LaunchImage-568h@2x.png */,
+				7516CBE094CE4E6FE794F1F6 /* LaunchImage@2x.png */,
+				F2B9411B0E1B23EFB6F1FCA1 /* LaunchImage@3x.png */,
+				7E750F479D0C49DABE732303 /* MyLaunchScreen.xib */,
+				7A7C201AF28C115440663121 /* Default-568h@2x.png */,
+				0773BDC8BD017FA649C9D042 /* LaunchScreen.xib */,
+			);
+			name = "Bundle Data";
+			sourceTree = "<group>";
+		};
+		87DF60DE337FB58864343E39 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				94CF4A136AA234D74144A6D9 /* qml.qrc */,
+				001F494AC8C995F3E0C1B524 /* translations.qrc */,
+				1279044417C8EEA52448AB0B /* images.qrc */,
+				5685736409F15062C43A528F /* data-assets.qrc */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		8EA579F0A605D33ACBEB4F19 /* cpp */ = {
+			isa = PBXGroup;
+			children = (
+				2CA4781E9E33DABA5D818708 /* main.cpp */,
+				D11ED85826C72F9F3E650508 /* applicationui.cpp */,
+				5B0CF1AC0A7E4F4BFDC837BD /* gen */,
+				13F304467FAFB38B831B5AA4 /* datautil.cpp */,
+				7162747196CA020933A4CDB7 /* imageloader.cpp */,
+				0DD2D0B47F617A2CAB5F96FC /* dataserver.cpp */,
+				234335A0282347E6BBEE8D1D /* applicationui.hpp */,
+				C806D0F887B04DEF495E183D /* uiconstants.hpp */,
+				4CD1C73CB1B9CA3E550207F5 /* datautil.hpp */,
+				0E6E079BF5DD924E3E439350 /* imageloader.hpp */,
+				45FC442B041F77A8654EEBBE /* dataserver.hpp */,
+			);
+			name = cpp;
+			sourceTree = "<group>";
+		};
+		AF39DD055C3EF8226FBE929D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FCC237CA5AD60B9BA4447615 /* Foundation.framework */,
+				7EC00404ACD5AB0E97726B0E /* QuartzCore.framework */,
+				3C44131FDCFEF4396B9EA2BA /* AudioToolbox.framework */,
+				4D765E1B1EA6C757220C63E7 /* CoreFoundation.framework */,
+				7D7B02101166B76FD2D4F8B4 /* CoreText.framework */,
+				6AE3EC31EE5BB1FCEE84137C /* CoreGraphics.framework */,
+				205259EEEE2BADA5E64741E3 /* Security.framework */,
+				FF5BDAB0076F3391B219EA52 /* SystemConfiguration.framework */,
+				D9E18F2806476962A725275C /* qtquick2plugin */,
+				56D8BA363189483FFB27AA31 /* qquicklayoutsplugin */,
+				E42803C46B8E7D0073575E55 /* qtquickcontrols2plugin */,
+				6D3EC51C1162D33346736888 /* qtquickcontrols2materialstyleplugin */,
+				3EB36FB5DEB36FAEB1EDDCCB /* Qt5QuickControls2 */,
+				DB170125CAD1CA2B4F631B68 /* qtgraphicaleffectsplugin */,
+				FE2728DA7B7C0E4BF10ED987 /* qtquicktemplates2plugin */,
+				F7656BDDDEE15C409E58727E /* qtgraphicaleffectsprivate */,
+				8F02588821AC9068632733C0 /* windowplugin */,
+				C922DA78C250DC86063A36F0 /* qtlabscalendarplugin */,
+				D17D4ED56C665ECC32C3552F /* Qt5QuickTemplates2 */,
+				EC83C78EF5C2B34BAB838646 /* qiosnsphotolibrarysupport */,
+				7590064A545CF3CC87ACFABF /* qios */,
+				462CAF8583D6CC73B0CD7F27 /* Qt5FontDatabaseSupport */,
+				02F7CFDB0C158C7FBBCEBD45 /* Qt5GraphicsSupport */,
+				3BA44CF1EADB16DFB4052D66 /* Qt5ClipboardSupport */,
+				720BECEBFFBC67117DC565FC /* qtfreetype */,
+				EF38398CC6B1645D2E603B4A /* qgif */,
+				1C7629882816E5DD78EF8647 /* qicns */,
+				0EA6D3774BBC946797136D6F /* qico */,
+				1AA581D3E6A6E10A21E13F31 /* qjpeg */,
+				23CD60FCCB231D08977AC3B3 /* qmacjp2 */,
+				3A8EF9C62A8D4790CBB89CEA /* ImageIO.framework */,
+				10ADE5F5D9F4608A15FF15C5 /* qtga */,
+				1B2162E4268F7B7802CDB4B5 /* qtiff */,
+				5203B46E4E97E5327DBE1490 /* qwbmp */,
+				F44C7FEEA12CD28215B7FDF7 /* qwebp */,
+				F39A9BD6A98A52E7A2E5270F /* qmldbg_debugger */,
+				D4484DB1A175E8DABFDDDCFD /* qmldbg_inspector */,
+				7CA2FAD4E6CA13CC167D340C /* qmldbg_local */,
+				8E1952D6835840A72E54E4E7 /* qmldbg_native */,
+				1D698CCB55648563087F8B2B /* qmldbg_profiler */,
+				184159256516F364BA0438CD /* qmldbg_quickprofiler */,
+				3A0BC9A10E11CF40B40419D9 /* Qt5Quick */,
+				C5CEE47B834991531D285BB8 /* Qt5Gui */,
+				02B25FE89EF68C041CEF3A0C /* qtlibpng */,
+				F009247CE919FFAD4AB60C62 /* qtharfbuzz */,
+				A97481FE886B1FE9DF765F65 /* qmldbg_server */,
+				B69095D22E5C944703B8540F /* Qt5PacketProtocol */,
+				501266170E7B08CEF5A5DE18 /* qmldbg_tcp */,
+				3FD689025418766DBA3239FB /* Qt5Qml */,
+				39432A856ACCD17235C514EA /* qgenericbearer */,
+				121D9261D1CBF64F9963CD5A /* Qt5Network */,
+				98DCFB8A06913E15D78238B4 /* Qt5Core */,
+				841B6739CEFB16DC5696A687 /* qtpcre */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E8C543AB96796ECAA2E65C57 /* SoSE2017 */ = {
+			isa = PBXGroup;
+			children = (
+				2EB56BE3C2D93CDAB0C52E67 /* Sources */,
+				25B08E2869634E9BCBA333A2 /* Generated Sources */,
+				74B182DB50CB5611B5C1C297 /* Supporting Files */,
+				87DF60DE337FB58864343E39 /* Resources */,
+				AF39DD055C3EF8226FBE929D /* Frameworks */,
+				858FCAB0EB1F29CF8B07677C /* Bundle Data */,
+				FE0A091FDBFB3E9C31B7A1BD /* Products */,
+			);
+			name = SoSE2017;
+			sourceTree = "<group>";
+		};
+		FE0A091FDBFB3E9C31B7A1BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDE9721FBC392C6D72636F16 /* SoSE2017.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		002C14BF1B85D5C2321A6A5A /* SoSE2017 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "SoSE2017" */;
+			buildPhases = (
+				F7E50F631C51CD5B5DC0BC43 /* Compile Sources */,
+				D1C883685E82D5676953459A /* Link Binary With Libraries */,
+				776D5E25B18ED6FE9A43064F /* Qt Postlink */,
+				30414803F31797EB689AE508 /* Copy Bundle Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				630DD263DC30D8E3C0D0F265 /* PBXTargetDependency */,
+			);
+			name = SoSE2017;
+			productName = SoSE2017;
+			productReference = DDE9721FBC392C6D72636F16 /* SoSE2017.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6DB9C3763D02B1415CD9D565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				TargetAttributes = {
+					002C14BF1B85D5C2321A6A5A = {
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "SoSE2017" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = English;
+			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E8C543AB96796ECAA2E65C57 /* SoSE2017 */;
+			productRefGroup = FE0A091FDBFB3E9C31B7A1BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				002C14BF1B85D5C2321A6A5A /* SoSE2017 */,
+				8DA0BBA57CF75928AC7D7ED9 /* Qt Preprocess */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30414803F31797EB689AE508 /* Copy Bundle Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B895A5AB886A32A32345AB56 /* AppIcon-120x120.png in Copy Bundle Resources */,
+				5367F461FF25E25D7E2C95D3 /* AppIcon-152x152.png in Copy Bundle Resources */,
+				2976715CF941FDAE24C6CAB9 /* AppIcon-167x167.png in Copy Bundle Resources */,
+				04B0AD92E9791AF1E5325597 /* AppIcon-180x180.png in Copy Bundle Resources */,
+				A23C93B06704C00D763C2934 /* AppIcon-58x58.png in Copy Bundle Resources */,
+				F367D893DB780CAD48E4F5CA /* AppIcon-76x76.png in Copy Bundle Resources */,
+				6BFF100630B8D64077B6AB37 /* AppIcon-80x80.png in Copy Bundle Resources */,
+				C46C043078A5808CAA1CD865 /* AppIcon-87x87.png in Copy Bundle Resources */,
+				6572FB1AE8B4BF003F866014 /* iTunesArtwork 512x512.png in Copy Bundle Resources */,
+				19A5AE2485F976E88BB5F306 /* iTunesArtwork@2x 1024x1024.png in Copy Bundle Resources */,
+				EC7347D5CAC806DBFC809EB9 /* LaunchImage-568h@2x.png in Copy Bundle Resources */,
+				2008C78F36FA90AC08624EF4 /* LaunchImage@2x.png in Copy Bundle Resources */,
+				6BB94D71743092A822E9F836 /* LaunchImage@3x.png in Copy Bundle Resources */,
+				0A863E8179A3C1BBE6388580 /* MyLaunchScreen.xib in Copy Bundle Resources */,
+				9EB189BFE40C8D3E022E6AAD /* Default-568h@2x.png in Copy Bundle Resources */,
+				634CC28C38263A14575D36C5 /* LaunchScreen.xib in Copy Bundle Resources */,
+			);
+			name = "Copy Bundle Resources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5E618435888B9D49F8540165 /* Qt Qmake */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Qmake";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/celal/workspace/SoSE2017/ -f SoSE2017.xcodeproj/qt_makeqmake.mak";
+			showEnvVarsInLog = 0;
+		};
+		776D5E25B18ED6FE9A43064F /* Qt Postlink */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(TARGET_BUILD_DIR)/$(EXECUTABLE_PATH)",
+			);
+			name = "Qt Postlink";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "cp /Users/celal/workspace/SoSE2017/qt.conf \"$CODESIGNING_FOLDER_PATH/qt.conf\";  test -d \"$CODESIGNING_FOLDER_PATH/qt_qml\" && rm -r \"$CODESIGNING_FOLDER_PATH/qt_qml\";  mkdir -p \"$CODESIGNING_FOLDER_PATH/qt_qml\" &&  for p in /Users/celal/Qt/5.8/ios/qml; do rsync -r --exclude='*.a' --exclude='*.prl' --exclude='*.qmltypes'  $p/ \"$CODESIGNING_FOLDER_PATH/qt_qml\"; done";
+			showEnvVarsInLog = 0;
+		};
+		7EF0942E79C014DCEC8976BC /* Qt Preprocessors */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "Qt Preprocessors";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/celal/workspace/SoSE2017/ -f SoSE2017.xcodeproj/qt_preprocess.mak";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F7E50F631C51CD5B5DC0BC43 /* Compile Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				57B3CB3D07D2E8C3C07DABBD /* main.cpp in Compile Sources */,
+				334578EA76A2719750E3FF7A /* applicationui.cpp in Compile Sources */,
+				1B253B591110AE00FA2B2CBF /* SettingsData.cpp in Compile Sources */,
+				BE9AD285EC9BCFBFFF53C09F /* Bookmark.cpp in Compile Sources */,
+				9B3892F43D4E9CA7E766D4E9 /* Building.cpp in Compile Sources */,
+				C76A750256DBC9E242363578 /* Conference.cpp in Compile Sources */,
+				C5D3B60AD5D82692195C1E81 /* DataManager.cpp in Compile Sources */,
+				935B37577826A71CEFE89878 /* Day.cpp in Compile Sources */,
+				FA2E681A488989141C2BAD71 /* Favorite.cpp in Compile Sources */,
+				E3F0BF0B9307444875C4C70B /* Floor.cpp in Compile Sources */,
+				72E392B0BB46FA0D5571FB57 /* PersonsAPI.cpp in Compile Sources */,
+				F8628DE41FF357887D805208 /* Room.cpp in Compile Sources */,
+				6491A41DB52765DD351C2F3F /* ScheduleItem.cpp in Compile Sources */,
+				CBA025AB7204640120454E21 /* Session.cpp in Compile Sources */,
+				F4C67F1A8462CE7627DE9C30 /* SessionAPI.cpp in Compile Sources */,
+				545972EBCA1F61967BD3F1B8 /* SessionTrack.cpp in Compile Sources */,
+				556C29B30B8AC747F3B4611B /* Speaker.cpp in Compile Sources */,
+				D44C83BF5B583D6F338ACAB3 /* SpeakerAPI.cpp in Compile Sources */,
+				5D851B53A40E71370DB66ED8 /* SpeakerImage.cpp in Compile Sources */,
+				BF2F5890429881DC06B2C014 /* datautil.cpp in Compile Sources */,
+				A753DD8D540A546EF3479BF7 /* imageloader.cpp in Compile Sources */,
+				CBFFA8CE528773FDD4E60CDF /* SessionLink.cpp in Compile Sources */,
+				242C872A933F621FA78E95AD /* SessionLinkAPI.cpp in Compile Sources */,
+				B0A8376C7E1856766D24C272 /* SessionLists.cpp in Compile Sources */,
+				2157841C5F8C75EB0572C521 /* dataserver.cpp in Compile Sources */,
+				D071FFFA1B4CEEC49B1D28EC /* sose2017_qml_plugin_import.cpp in Compile Sources */,
+				149E26C72861A0CE04DF03F6 /* sose2017_plugin_import.cpp in Compile Sources */,
+				F5E79F536F185CAE2D73C6AA /* qrc_qml.cpp in Compile Sources */,
+				23ADB1397AFB22CDD138B366 /* qrc_translations.cpp in Compile Sources */,
+				6949FECF6A608773BD6E2850 /* qrc_images.cpp in Compile Sources */,
+				E46AE88CA28F2BD913A837C7 /* qrc_data-assets.cpp in Compile Sources */,
+				D2DB9965E1D6A7C701E9E5F0 /* moc_applicationui.cpp in Compile Sources */,
+				9B8E310B8BDE33EA9FA1F5B3 /* moc_SettingsData.cpp in Compile Sources */,
+				999D35C5ADF0223A39C91813 /* moc_Bookmark.cpp in Compile Sources */,
+				A4B7E8336E2DE4A6B0DDE7F4 /* moc_Building.cpp in Compile Sources */,
+				4F3E2BE83D6AC6C986ED5601 /* moc_Conference.cpp in Compile Sources */,
+				09084AEA15A4AFF2227F7BDD /* moc_DataManager.cpp in Compile Sources */,
+				249AD589754F2C9F7F1AEB54 /* moc_Day.cpp in Compile Sources */,
+				23DAE6C3EC2D95D3E8F0508C /* moc_Favorite.cpp in Compile Sources */,
+				12BBA8BEA826C28CF41E1CC5 /* moc_Floor.cpp in Compile Sources */,
+				8FD79EC2817729329433053C /* moc_PersonsAPI.cpp in Compile Sources */,
+				CA072B9C0044ADCE55EE73F8 /* moc_Room.cpp in Compile Sources */,
+				D32EF56CFAEBBF2AD3DAB950 /* moc_ScheduleItem.cpp in Compile Sources */,
+				17F73BDAAF2882A79BF02000 /* moc_Session.cpp in Compile Sources */,
+				9AED249B4ABC342552B4E129 /* moc_SessionAPI.cpp in Compile Sources */,
+				FFBE40FE9C0B0D6F974EF4BF /* moc_SessionTrack.cpp in Compile Sources */,
+				7F68C1B5F3496B046DF688CE /* moc_Speaker.cpp in Compile Sources */,
+				B427800AB7C93BFF02A8C6EF /* moc_SpeakerAPI.cpp in Compile Sources */,
+				2B3E5CC475860B934352F7DF /* moc_SpeakerImage.cpp in Compile Sources */,
+				A852E1199F63F96F4433A64C /* moc_datautil.cpp in Compile Sources */,
+				DC3366C777528CC2E5F0FD69 /* moc_imageloader.cpp in Compile Sources */,
+				620CAC774ECD5C4A33FB2E53 /* moc_SessionLink.cpp in Compile Sources */,
+				F6DEED74FA0BBB3FDFE0D4D5 /* moc_SessionLinkAPI.cpp in Compile Sources */,
+				E0EF79B25D49F7A86A962DE5 /* moc_SessionLists.cpp in Compile Sources */,
+				9D9DB4A4AA5953D53E0B20FF /* moc_dataserver.cpp in Compile Sources */,
+			);
+			name = "Compile Sources";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		630DD263DC30D8E3C0D0F265 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DA0BBA57CF75928AC7D7ED9 /* Qt Preprocess */;
+			targetProxy = 1EA360FA1EE074010090F776 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		339EE1B2CC4FC24589A0EA95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+					i386,
+					x86_64,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv7,
+					arm64,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = (
+					i386,
+					x86_64,
+				);
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 97B8N7ZG59;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					../../Qt/5.8/ios/mkspecs/common/uikit,
+					../../Qt/5.8/ios/include,
+					../../Qt/5.8/ios/include/QtQuick,
+					../../Qt/5.8/ios/include/QtGui,
+					../../Qt/5.8/ios/include/QtQml,
+					../../Qt/5.8/ios/include/QtNetwork,
+					../../Qt/5.8/ios/include/QtCore,
+					.,
+					"../../Qt/5.8/ios/mkspecs/macx-ios-clang",
+				);
+				INFOPLIST_FILE = ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/celal/Qt/5.8/ios/plugins/platforms,
+					/System/Library/Frameworks/,
+					/Users/celal/Qt/5.8/ios/lib,
+					/Users/celal/Qt/5.8/ios/qml/QtQuick.2,
+					/Users/celal/Qt/5.8/ios/qml/QtQuick/Layouts,
+					/Users/celal/Qt/5.8/ios/qml/QtQuick/Controls.2,
+					/Users/celal/Qt/5.8/ios/qml/QtQuick/Controls.2/Material,
+					/Users/celal/Qt/5.8/ios/qml/QtGraphicalEffects,
+					/Users/celal/Qt/5.8/ios/qml/QtQuick/Templates.2,
+					/Users/celal/Qt/5.8/ios/qml/QtGraphicalEffects/private,
+					/Users/celal/Qt/5.8/ios/qml/QtQuick/Window.2,
+					/Users/celal/Qt/5.8/ios/qml/Qt/labs/calendar,
+					/Users/celal/Qt/5.8/ios/plugins/platforms/darwin,
+					/Users/celal/Qt/5.8/ios/plugins/imageformats,
+					/Users/celal/Qt/5.8/ios/plugins/qmltooling,
+					/Users/celal/Qt/5.8/ios/plugins/bearer,
+				);
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-g",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wno-deprecated-implementations",
+					"-Wprotocol",
+					"-Wno-selector",
+					"-Wno-strict-selector-match",
+					"-Wno-undeclared-selector",
+					"-fembed-bitcode-marker",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQT_QUICK_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-fvisibility-inlines-hidden",
+					"-Wno-non-virtual-dtor",
+					"-Wno-overloaded-virtual",
+					"-Wno-exit-time-destructors",
+					"-g",
+					"-std=gnu++11",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wno-deprecated-implementations",
+					"-Wprotocol",
+					"-Wno-selector",
+					"-Wno-strict-selector-match",
+					"-Wno-undeclared-selector",
+					"-fembed-bitcode-marker",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQT_QUICK_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-stdlib=libc++",
+					"-fembed-bitcode-marker",
+					"-Wl,-e,_qt_main_wrapper",
+					"-L/Users/celal/Qt/5.8/ios/plugins/platforms",
+					"-framework",
+					UIKit,
+					"-framework",
+					AssetsLibrary,
+					"-L/Users/celal/Qt/5.8/ios/lib",
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					OpenGLES,
+					"-L/Users/celal/Qt/5.8/ios/qml/QtQuick.2",
+					"-L/Users/celal/Qt/5.8/ios/qml/QtQuick/Layouts",
+					"-L/Users/celal/Qt/5.8/ios/qml/QtQuick/Controls.2",
+					"-L/Users/celal/Qt/5.8/ios/qml/QtQuick/Controls.2/Material",
+					"-L/Users/celal/Qt/5.8/ios/qml/QtGraphicalEffects",
+					"-L/Users/celal/Qt/5.8/ios/qml/QtQuick/Templates.2",
+					"-L/Users/celal/Qt/5.8/ios/qml/QtGraphicalEffects/private",
+					"-L/Users/celal/Qt/5.8/ios/qml/QtQuick/Window.2",
+					"-L/Users/celal/Qt/5.8/ios/qml/Qt/labs/calendar",
+					"-L/Users/celal/Qt/5.8/ios/plugins/platforms/darwin",
+					"-L/Users/celal/Qt/5.8/ios/plugins/imageformats",
+					"-L/Users/celal/Qt/5.8/ios/plugins/qmltooling",
+					"-L/Users/celal/Qt/5.8/ios/plugins/bearer",
+					"-lm",
+					"-lz",
+				);
+				PRODUCT_NAME = SoSE2017;
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk;
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk;
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform;
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/celal/workspace/SoSE2017/;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		3AA6C32AC930069E80220CF1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = (
+					armv7,
+					arm64,
+					i386,
+					x86_64,
+				);
+				"ARCHS[sdk=iphoneos*]" = (
+					armv7,
+					arm64,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = (
+					i386,
+					x86_64,
+				);
+				CC = /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 97B8N7ZG59;
+				DYLIB_COMPATIBILITY_VERSION = 1.0;
+				DYLIB_CURRENT_VERSION = 1.0.0;
+				ENABLE_BITCODE = YES;
+				FRAMEWORK_SEARCH_PATHS = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					.,
+					../../Qt/5.8/ios/mkspecs/common/uikit,
+					../../Qt/5.8/ios/include,
+					../../Qt/5.8/ios/include/QtQuick,
+					../../Qt/5.8/ios/include/QtGui,
+					../../Qt/5.8/ios/include/QtQml,
+					../../Qt/5.8/ios/include/QtNetwork,
+					../../Qt/5.8/ios/include/QtCore,
+					.,
+					"../../Qt/5.8/ios/mkspecs/macx-ios-clang",
+				);
+				INFOPLIST_FILE = ios/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LDPLUSPLUS = "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++";
+				LIBRARY_SEARCH_PATHS = (
+					/Users/celal/Qt/5.8/ios/plugins/platforms,
+					/System/Library/Frameworks/,
+					/Users/celal/Qt/5.8/ios/lib,
+					/Users/celal/Qt/5.8/ios/qml/QtQuick.2,
+					/Users/celal/Qt/5.8/ios/qml/QtQuick/Layouts,
+					/Users/celal/Qt/5.8/ios/qml/QtQuick/Controls.2,
+					/Users/celal/Qt/5.8/ios/qml/QtQuick/Controls.2/Material,
+					/Users/celal/Qt/5.8/ios/qml/QtGraphicalEffects,
+					/Users/celal/Qt/5.8/ios/qml/QtQuick/Templates.2,
+					/Users/celal/Qt/5.8/ios/qml/QtGraphicalEffects/private,
+					/Users/celal/Qt/5.8/ios/qml/QtQuick/Window.2,
+					/Users/celal/Qt/5.8/ios/qml/Qt/labs/calendar,
+					/Users/celal/Qt/5.8/ios/plugins/platforms/darwin,
+					/Users/celal/Qt/5.8/ios/plugins/imageformats,
+					/Users/celal/Qt/5.8/ios/plugins/qmltooling,
+					/Users/celal/Qt/5.8/ios/plugins/bearer,
+				);
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_CFLAGS = (
+					"-pipe",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-g",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wno-deprecated-implementations",
+					"-Wprotocol",
+					"-Wno-selector",
+					"-Wno-strict-selector-match",
+					"-Wno-undeclared-selector",
+					"-fembed-bitcode-marker",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQT_QUICK_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-pipe",
+					"-stdlib=libc++",
+					"-fvisibility=hidden",
+					"-fpascal-strings",
+					"-fmessage-length=0",
+					"-Wno-trigraphs",
+					"-Wreturn-type",
+					"-Wparentheses",
+					"-Wswitch",
+					"-Wno-unused-parameter",
+					"-Wunused-variable",
+					"-Wunused-value",
+					"-Wno-shorten-64-to-32",
+					"-Wno-sign-conversion",
+					"-fexceptions",
+					"-fasm-blocks",
+					"-Wno-missing-field-initializers",
+					"-Wno-missing-prototypes",
+					"-Wno-implicit-atomic-properties",
+					"-Wformat",
+					"-Wno-missing-braces",
+					"-Wno-unused-function",
+					"-Wno-unused-label",
+					"-Wuninitialized",
+					"-Wno-unknown-pragmas",
+					"-Wno-shadow",
+					"-Wno-four-char-constants",
+					"-Wno-sign-compare",
+					"-Wpointer-sign",
+					"-Wno-newline-eof",
+					"-Wdeprecated-declarations",
+					"-Winvalid-offsetof",
+					"-Wno-conversion",
+					"-fvisibility-inlines-hidden",
+					"-Wno-non-virtual-dtor",
+					"-Wno-overloaded-virtual",
+					"-Wno-exit-time-destructors",
+					"-g",
+					"-std=gnu++11",
+					"-fobjc-nonfragile-abi",
+					"-fobjc-legacy-dispatch",
+					"-Wno-deprecated-implementations",
+					"-Wprotocol",
+					"-Wno-selector",
+					"-Wno-strict-selector-match",
+					"-Wno-undeclared-selector",
+					"-fembed-bitcode-marker",
+					"-Wall",
+					"-W",
+					"-fPIC",
+					"-DDARWIN_NO_CARBON",
+					"-DQT_COMPILER_SUPPORTS_SSE2",
+					"-DQT_QUICK_LIB",
+					"-DQT_GUI_LIB",
+					"-DQT_QML_LIB",
+					"-DQT_NETWORK_LIB",
+					"-DQT_CORE_LIB",
+				);
+				OTHER_LDFLAGS = (
+					"-headerpad_max_install_names",
+					"-stdlib=libc++",
+					"-fembed-bitcode-marker",
+					"-Wl,-e,_qt_main_wrapper",
+					"-L/Users/celal/Qt/5.8/ios/plugins/platforms",
+					"-framework",
+					UIKit,
+					"-framework",
+					AssetsLibrary,
+					"-L/Users/celal/Qt/5.8/ios/lib",
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					OpenGLES,
+					"-L/Users/celal/Qt/5.8/ios/qml/QtQuick.2",
+					"-L/Users/celal/Qt/5.8/ios/qml/QtQuick/Layouts",
+					"-L/Users/celal/Qt/5.8/ios/qml/QtQuick/Controls.2",
+					"-L/Users/celal/Qt/5.8/ios/qml/QtQuick/Controls.2/Material",
+					"-L/Users/celal/Qt/5.8/ios/qml/QtGraphicalEffects",
+					"-L/Users/celal/Qt/5.8/ios/qml/QtQuick/Templates.2",
+					"-L/Users/celal/Qt/5.8/ios/qml/QtGraphicalEffects/private",
+					"-L/Users/celal/Qt/5.8/ios/qml/QtQuick/Window.2",
+					"-L/Users/celal/Qt/5.8/ios/qml/Qt/labs/calendar",
+					"-L/Users/celal/Qt/5.8/ios/plugins/platforms/darwin",
+					"-L/Users/celal/Qt/5.8/ios/plugins/imageformats",
+					"-L/Users/celal/Qt/5.8/ios/plugins/qmltooling",
+					"-L/Users/celal/Qt/5.8/ios/plugins/bearer",
+					"-lm",
+					"-lz",
+				);
+				PRODUCT_NAME = SoSE2017;
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk;
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk;
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform;
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform;
+				QT_LIBRARY_SUFFIX = _debug;
+				SDKROOT = iphoneos;
+				SYMROOT = /Users/celal/workspace/SoSE2017/;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6666AA5E688052234F6758D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=iphoneos*]" = (
+					armv7,
+					arm64,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = (
+					i386,
+					x86_64,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEVELOPMENT_TEAM = 97B8N7ZG59;
+				ENABLE_BITCODE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sosengineering.sose2017;
+				PRODUCT_NAME = SoSE2017;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk;
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk;
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform;
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform;
+				QT_LIBRARY_SUFFIX = "";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		77418F46922677BB04ED38DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"ARCHS[sdk=iphoneos*]" = (
+					armv7,
+					arm64,
+				);
+				"ARCHS[sdk=iphonesimulator*]" = (
+					i386,
+					x86_64,
+				);
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 97B8N7ZG59;
+				ENABLE_BITCODE = NO;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.sosengineering.sose2017;
+				PRODUCT_NAME = SoSE2017;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"QMAKE_MAC_SDK_PATH[sdk=iphoneos*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk;
+				"QMAKE_MAC_SDK_PATH[sdk=iphonesimulator*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator10.3.sdk;
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphoneos*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform;
+				"QMAKE_MAC_SDK_PLATFORM_PATH[sdk=iphonesimulator*]" = /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform;
+				QT_LIBRARY_SUFFIX = _debug;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6CC3B5D2136C7CD6A5CF5A59 /* Build configuration list for PBXNativeTarget "SoSE2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77418F46922677BB04ED38DD /* Debug */,
+				6666AA5E688052234F6758D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		DAC4C1AA5EDEA1C85E9CA5E6 /* Build configuration list for PBXProject "SoSE2017" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AA6C32AC930069E80220CF1 /* Debug */,
+				339EE1B2CC4FC24589A0EA95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6DB9C3763D02B1415CD9D565 /* Project object */;
+}
