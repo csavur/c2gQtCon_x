@@ -596,7 +596,8 @@ void DataUtil::createAndAdjustLinks(QVariantMap& sessionMap) {
 
 bool DataUtil::checkIfIgnored(SessionAPI* sessionAPI)
 {
-    QString room = "Kings I";
+    QString room = "Kohala Promenade";
+    qDebug() << "room " << sessionAPI->room();
     if(sessionAPI->title() == "Registration and Coffee" && sessionAPI->room() != room) {
         qDebug() << "unwanted session: " << sessionAPI->sessionId() << " " << sessionAPI->title() << " " << sessionAPI->room();
         return true;

@@ -112,7 +112,7 @@ Pane {
             }
 
             // open modal dialog and wait if update required
-            updatePopup.text = qsTr("Checking QtCon Server\nfor new Schedule Data ...")
+            updatePopup.text = qsTr("Checking SoSE2017 Server\nfor new Schedule Data ...")
             updatePopup.buttonsVisible = false
             updatePopup.isUpdate = false
             updatePopup.open()
