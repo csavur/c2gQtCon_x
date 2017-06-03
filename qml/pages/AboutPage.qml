@@ -35,7 +35,7 @@ Flickable {
                     leftPadding: 10
                     rightPadding: 10
                     wrapMode: Text.WordWrap
-                    text: qsTr("This application developted by Celal Savur.\n")
+                    text: qsTr("This application developed by Celal Savur.\n")
                 }
             }
 
