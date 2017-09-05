@@ -105,11 +105,12 @@ Pane {
         imageSource: "qrc:/images/"+iconOnAccentFolder+imageName
         backgroundColor: accentColor
         onClicked: {
-            // check if date is OK
-            if(dataUtil.isDateTooLate()) {
-                appWindow.showToast(qsTr("Sorry - the Conference is closed.\nNo more Updates available"))
-                return
-            }
+// If we want to prevent update based on date
+//            // check if date is OK
+//            if(dataUtil.isDateTooLate()) {
+//                appWindow.showToast(qsTr("Sorry - the Conference is closed.\nNo more Updates available"))
+//                return
+//            }
 
             // open modal dialog and wait if update required
             updatePopup.text = qsTr("Checking SoSE2017 Server\nfor new Schedule Data ...")
